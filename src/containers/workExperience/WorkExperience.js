@@ -2,8 +2,12 @@ import React, {useContext} from "react";
 import "./WorkExperience.scss";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 import {workExperiences} from "../../portfolio";
+<<<<<<< HEAD
+import "./WorkExperience.scss"; // Make sure this SCSS file exists
+=======
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+>>>>>>> 88e96ff (init code)
 
 export default function WorkExperience() {
   const {isDark} = useContext(StyleContext);
@@ -18,17 +22,17 @@ export default function WorkExperience() {
                 {workExperiences.experience.map((card, i) => {
                   return (
                     <ExperienceCard
-                      key={i}
-                      isDark={isDark}
-                      cardInfo={{
-                        company: card.company,
-                        desc: card.desc,
-                        date: card.date,
-                        companylogo: card.companylogo,
-                        role: card.role,
-                        descBullets: card.descBullets
-                      }}
-                    />
+  isDark={isDark}
+  cardInfo={{
+    company: workExperiences.experience[0].company,
+    desc: workExperiences.experience[0].desc,
+    date: workExperiences.experience[0].date,
+    companylogo: workExperiences.experience[0].companylogo,
+    role: workExperiences.experience[0].role,
+    descBullets: workExperiences.experience[0].descBullets
+  }}
+/>
+
                   );
                 })}
               </div>
