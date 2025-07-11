@@ -35,6 +35,9 @@
 }
 
 .button-greeting-div {
+  @media screen and (max-width: 770px) {
+    flex-direction: column-reverse;
+  }
   display: flex;
   margin-top: 40px;
 }
