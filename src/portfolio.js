@@ -1,389 +1,279 @@
-/* Change this file to get your personal Portfolio */
-
-// To change portfolio colors globally go to the  _globalColor.scss file
+/* Portfolio Configuration File for Haider Ali */
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
-// Splash Screen
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true,
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000
 };
 
-// Summary And Greeting Section
-
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Haider Ali",
+  title: "Hi all, I'm Haider",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Full Stack Application Developer | Flutter & Node.js | AI-Driven & Scalable App Integration | Native and Hybrid Application Development | MVVM and Clean Architecture | SOLID Principles and Design Patterns | API Integration | State Management (BloC and Provider) | Navigation and Routing Techniques | Animations | OOP and Functional Programming | Database (SQL, SQLite, Shared Preferences, Firebase) | CI/CD | Deployment"
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  resumeLink: "",
+  displayGreeting: true
 };
-
-// Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  github: "https://github.com/HaiderAli228",
+  linkedin: "https://www.linkedin.com/in/haiderali228/",
+  gmail: "flutter2830@gmail.com",
+  medium: "https://medium.com/@haiderali228",
+  stackoverflow: "https://stackoverflow.com/users/27008503/haider-ali",
+  leetcode: "https://leetcode.com/u/Haider-228/",
+  display: true
 };
-
-// Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "EXPERIENCED FLUTTER DEVELOPER FOCUSED ON BUILDING MODERN, SCALABLE MOBILE APPS",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Cross-platform mobile app development using Flutter and Dart for Android and iOS"),
+    emoji("⚡ MVVM architecture, RESTful APIs, Firebase integration, and robust debugging skills"),
+    emoji("⚡ Deep understanding of state management (Provider, BloC), UI/UX design, and CI/CD"),
+    emoji("⚡ Experience with AI APIs (Gemini, Claude, MidJourney) and LangChain-style optimization techniques"),
+    emoji("⚡ Designed and deployed scalable apps using SOLID principles and modular OOP architecture")
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    { skillName: "Flutter", fontAwesomeClassname: "fas fa-mobile-alt" },
+    { skillName: "Dart", fontAwesomeClassname: "fab fa-code" },
+    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
+    { skillName: "Kotlin", fontAwesomeClassname: "fab fa-android" },
+    { skillName: "C", fontAwesomeClassname: "fas fa-copyright" },
+    { skillName: "C++", fontAwesomeClassname: "fas fa-code-branch" },
+    { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
+    { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
+    { skillName: "Supabase", fontAwesomeClassname: "fas fa-server" },
+    { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "SQLite", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "GitHub", fontAwesomeClassname: "fab fa-github" },
+    { skillName: "Postman", fontAwesomeClassname: "fas fa-vial" },
+    { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
+    { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
+    { skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf" },
+    { skillName: "Figma", fontAwesomeClassname: "fab fa-figma" },
+    { skillName: "VS Code", fontAwesomeClassname: "fas fa-code" },
+    { skillName: "Android Studio", fontAwesomeClassname: "fas fa-laptop-code" }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
-// Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
-    {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+   {
+      schoolName: "Government College University Faisalabad",
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "2021 – 2025",
+      desc: "Gained a solid foundation in Data Structures, Algorithms, Object-Oriented Programming, Operating Systems, and Database Management Systems through academic coursework and hands-on projects.",
+      descBullets: [
+        "Completed a semester project integrating web development with artificial intelligence for intelligent content delivery.",
+        "Led a team project in the 7th semester to build 'Library' – an educational mobile app using Flutter, which gained real-time student adoption and demonstrated full-stack app deployment skills.",
+        "Developing a capstone Final Year Project (TripCompass) in the 8th semester – a cross-platform AI-powered travel planner with offline-first support, GeoFencing alerts, and voice-based itinerary assistance for tourists."
+      ]
     }
   ]
 };
-
-// Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+    { Stack: "Flutter & Dart", progressPercentage: "90%" },
+    { Stack: "API Integration & Backend", progressPercentage: "80%" },
+    { Stack: "UI/UX & Animation", progressPercentage: "85%" }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
-// Work experience section
-
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Flutter Trainer & Mentor",
+      company: "NAVTTC",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      date: "Jan 2025 – Present",
+      desc: "Mentoring students in mobile app development using Flutter, Dart, and Firebase. Responsible for planning and delivering hands-on sessions, designing practical projects, and guiding students through MVVM architecture, API integration, and deployment best practices."
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Flutter Developer Intern",
+      company: "TechloSet Solution",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Sep 2024 – Mar 2024",
+      desc: "Worked on real-world client projects, integrating third-party APIs and optimizing mobile applications for better performance. Contributed to the UI/UX development of commercial apps, implemented state management using Provider and BloC, resolved major bugs through in-depth debugging, worked with RESTful services and Google APIs, participated in daily stand-ups and code reviews."
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "true",
+  display: true
 };
 
-// Some big projects you have worked on
-
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "My Projects",
+  subtitle: "FEATURED APPLICATIONS I'VE DEVELOPED",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Library – Educational App",
+      projectDesc: "Student study material app with Gemini AI, YouTube API, Google APIs, and state persistence using MVVM and Provider.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
+        { name: "GitHub", url: "https://github.com/HaiderAli228/Library---Your-Study-Partner" },
+        { name: "Download APK", url: "https://github.com/HaiderAli228/Library---Your-Study-Partner/releases/download/v1.0.0/LibraryYourStudyCompanion.apk" }
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "MindMap – Thought Organizer",
+      projectDesc: "Idea management platform using Flutter, MySQL, caching, and MVVM.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
+        { name: "GitHub", url: "https://github.com/HaiderAli228/MindMap-Thought-Organizer" }
+        { name: "Download APK", url: "https://github.com/HaiderAli228/MindMap---APK/releases/download/v1.1.0/MindMap-app-release.apk" }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "NueraTalk – AI Chatbot",
+      projectDesc: "Chatbot app with Gemini API integration and MySQL for real-time chat.",
+      footerLink: [
+        { name: "GitHub", url: "https://github.com/HaiderAli228/NueraTalk--AI-Chatbot" }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "SnapSense – AI Image Generator",
+      projectDesc: "Image generation app powered by MidJourney API and Bloc state management.",
+      footerLink: [
+        { name: "GitHub", url: "https://github.com/HaiderAli228/SnapSense--AI-Image-generator" }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "GiveHope – Donation App",
+      projectDesc: "Flutter app for donation management with backend integration.",
+      footerLink: [
+        { name: "GitHub", url: "https://github.com/HaiderAli228/GiveHope-Donation-App" }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "OrderFood – Restaurant App",
+      projectDesc: "Restaurant order management app using Flutter.",
+      footerLink: [
+        { name: "GitHub", url: "https://github.com/HaiderAli228/OrderFood---RestaurantApp" }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "News App",
+      projectDesc: "News application built with Flutter and news APIs.",
+      footerLink: [
+        { name: "GitHub", url: "https://github.com/HaiderAli228/News-App" }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
-
-// Achievement Section
-// Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+  title: emoji("Achievements and Certifications 🏆"),
+  subtitle: "Some notable accomplishments and recognitions in my journey so far:",
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+      title: "Prompt Engineering",
+      subtitle: "Successfully completed the Prompt Engineering course from Great Learning Academy in November 2024.",
+      image: require("./assets/images/certification.png"),
+      imageAlt: "Prompt Engineering",
+      footerLink: []
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+      title: "Kotlin Programming",
+      subtitle: "Completed Kotlin course on SoloLearn in February 2023, building a strong foundation in Android basics.",
+      image: require("./assets/images/certification.png"),
+      imageAlt: "Kotlin Course",
+      footerLink: []
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title: "Course: Tech for Everyone",
+      subtitle: "Completed foundational tech literacy training covering digital tools, programming basics, and future trends.",
+      image: require("./assets/images/certification.png"),
+      imageAlt: "Tech Course",
+      footerLink: []
+    },
+    {
+      title: "Meta Hacker Cup Participant",
+      subtitle: "Participated in the Meta (Facebook) Hacker Cup Hackathon, solving algorithmic problems in competitive programming.",
+      image: require("./assets/images/hackathon.png"),
+      imageAlt: "Meta Hacker Cup",
+      footerLink: []
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
-
-// Blogs Section
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  subtitle: "I share knowledge to empower developers and simplify complex concepts.",
+  displayMediumBlogs: "false",
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://medium.com/@haiderali228/five-standout-project-ideas-for-a-resume-e040fba3f7f5",
+      title: "5 Standout Project Ideas for a Resume",
+      description: "Explore creative and impactful project ideas tailored to impress employers and demonstrate real-world coding experience."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://www.linkedin.com/pulse/alert-flutter-developers-fixing-gradle-conflict-issue-haider-ali-zl5jc/",
+      title: "Fixing Gradle Conflict Issue in Flutter",
+      description: "A detailed and beginner-friendly guide to resolving the Gradle plugin version issue in Flutter projects – a must-read for all new developers."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
-
-// Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  title: "Talks",
+  subtitle: emoji("I LOVE TO SHARE MY KNOWLEDGE THROUGH TECH TALKS"),
+  talks: [],
+  display: false
 };
-
-// Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "Guest and tech discussion episodes.",
+  podcast: [],
+  display: false
 };
 
-// Resume Section
 const resumeSection = {
   title: "Resume",
-  subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  subtitle: "Download my complete resume for more details",
+  display: true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Want to discuss a project or just say hi? My inbox is open!",
+  number: "+92-349-6292972",
+  email_address: "flutter2830@gmail.com"
 };
-
-// Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "",
+  display: false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true;
 
 export {
   illustration,
