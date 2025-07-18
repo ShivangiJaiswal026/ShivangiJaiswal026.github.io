@@ -19,9 +19,9 @@
   color: $subTitle;
 }
 
-.software-skill-inline > i:hover {
-  color: $skillsColor;
-}
+// .software-skill-inline > i:hover {
+//   color: $skillsColor;
+// }
 .software-skill-inline > p {
   color: $subTitle;
   font-size: 10px;
@@ -29,3 +29,109 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
+
+.html-5-icon:hover {
+  color: #e44d26;
+}
+
+.css3-icon:hover {
+  color: #1572b6;
+}
+
+.sass-icon:hover {
+  color: #cd6799;
+}
+
+.JavaScript-icon:hover {
+  color: #f0db4f;
+}
+
+.reactjs-icon:hover {
+  color: #61dafb;
+}
+
+.nodejs-icon:hover {
+  color: #339933;
+}
+
+.swift-icon:hover {
+  color: #fa7343;
+}
+
+.npm-icon:hover {
+  color: #cb3837;
+}
+
+.sql-database-icon:hover {
+  color: #003b57;
+}
+
+.aws-icon:hover {
+  color: #ff9900;
+}
+
+.firebase-icon:hover {
+  color: #ffa611;
+}
+
+.python-icon:hover {
+  color: #306998;
+}
+
+.docker-icon:hover {
+  color: #0db7ed;
+}
+
+.software-skill-inline:hover > i.html-5-icon ~ p {
+  color: #e44d26;
+}
+
+.software-skill-inline:hover > i.css3-icon ~ p {
+  color: #1572b6;
+}
+
+.software-skill-inline:hover > i.sass-icon ~ p {
+  color: #cd6799;
+}
+
+.software-skill-inline:hover > i.JavaScript-icon ~ p {
+  color: #f0db4f;
+}
+
+.software-skill-inline:hover > i.reactjs-icon ~ p {
+  color: #61dafb;
+}
+
+.software-skill-inline:hover > i.nodejs-icon ~ p {
+  color: #339933;
+}
+
+.software-skill-inline:hover > i.swift-icon ~ p {
+  color: #fa7343;
+}
+
+.software-skill-inline:hover > i.npm-icon ~ p {
+  color: #cb3837;
+}
+
+.software-skill-inline:hover > i.sql-database-icon ~ p {
+  color: #003b57;
+}
+
+.software-skill-inline:hover > i.aws-icon ~ p {
+  color: #ff9900;
+}
+
+.software-skill-inline:hover > i.firebase-icon ~ p {
+  color: #ffa611;
+}
+
+.software-skill-inline:hover > i.python-icon ~ p {
+  color: #306998;
+}
+
+.software-skill-inline:hover > i.docker-icon ~ p {
+  color: #0db7ed;
+}
+
+
