@@ -1,21 +1,32 @@
-import React from "react";
+import React, {useState} from "react";
 import "./SoftwareSkill.scss";
 import {skillsSection} from "../../portfolio";
 
 export default function SoftwareSkill() {
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
   return (
     <div>
       <div className="software-skills-main-div">
         <ul className="dev-icons">
-          {skillsSection.softwareSkills.map((skills, i) => {
+          {skillsSection.softwareSkills.map((skill, index) => {
+            const isHovered = hoveredIndex === index;
+
             return (
               <li
-                key={i}
+                key={index}
                 className="software-skill-inline"
-                name={skills.skillName}
+                name={skill.skillName}
+                onMouseEnter={() => setHoveredIndex(index)}
+                onMouseLeave={() => setHoveredIndex(null)}
               >
-                <i className={skills.fontAwesomeClassname}></i>
-                <p>{skills.skillName}</p>
+                <i
+                  className={skill.fontAwesomeClassname}
+                  style={{color: isHovered ? skill.color : undefined}}
+                ></i>
+                <p style={{color: isHovered ? skill.color : undefined}}>
+                  {skill.skillName}
+                </p>
               </li>
             );
           })}
