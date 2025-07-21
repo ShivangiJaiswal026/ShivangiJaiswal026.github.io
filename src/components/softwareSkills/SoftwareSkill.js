@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import "./SoftwareSkill.scss";
-import { skillsSection } from "../../portfolio";
+import {skillsSection} from "../../portfolio";
 
 export default function SoftwareSkill() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -22,9 +22,9 @@ export default function SoftwareSkill() {
               >
                 <i
                   className={skill.fontAwesomeClassname}
-                  style={{ color: isHovered ? skill.color : undefined }}
+                  style={{color: isHovered ? skill.color : undefined}}
                 ></i>
-                <p style={{ color: isHovered ? skill.color : undefined }}>
+                <p style={{color: isHovered ? skill.color : undefined}}>
                   {skill.skillName}
                 </p>
               </li>
