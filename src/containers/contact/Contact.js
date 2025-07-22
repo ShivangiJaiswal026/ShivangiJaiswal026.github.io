@@ -29,6 +29,7 @@ export default function Contact() {
                 isDark ? "dark-mode contact-text-div" : "contact-text-div"
               }
             >
+              Phone Number:{" "}
               {contactInfo.number && (
                 <>
                   <a
@@ -41,6 +42,7 @@ export default function Contact() {
                   <br />
                 </>
               )}
+              Email:{"  "}
               <a
                 className="contact-detail-email"
                 href={"mailto:" + contactInfo.email_address}

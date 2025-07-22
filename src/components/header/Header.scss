@@ -18,12 +18,13 @@
 
 .dark-menu li a:hover {
   background-color: $buttonColor !important;
+  border-radius: 30px;
 }
 
 .header {
   background-color: $lightBackground1;
   max-width: 100%;
-  padding: 15px 20px;
+  padding: 10px 5px;
   margin: 0px auto;
 }
 
@@ -48,6 +49,7 @@
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: $headerHoverBG;
+  border-radius: 30px;
 }
 
 .header .logo {
