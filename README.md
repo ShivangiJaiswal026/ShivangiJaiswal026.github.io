@@ -144,14 +144,14 @@ MEDIUM_USERNAME = "YOUR MEDIUM USERNAME"
 
 * For Github Action, change the environment variable `MEDIUM_USERNAME` in `.github/workflows/deploy.yml`
 
-Set `displayMediumBlogs` to true or false in portofolio.js to display fetched Medium blogs, defaults to true.
+Set `displayMediumBlogs` to true or false in portfolio.js to display fetched Medium blogs, defaults to true.
 
 ## Change and customize every section according to your need.
 
 #### Personalize page content in `/src/portfolio.js` & modify it as per your need. You will also need to modify `index.html` to change the title and metadata to provide accurate SEO for your personal portfolio.
 
 ```javascript
-/* Change this file to get your Personal Porfolio */
+/* Change this file to get your Personal Portfolio */
 
 const greeting = {
   /* Your Summary And Greeting Section */
