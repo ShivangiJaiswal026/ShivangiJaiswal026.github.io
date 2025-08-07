@@ -1,18 +1,14 @@
-from pathlib import Path
-
-# Corrected JavaScript code with placeholder image URLs instead of local requires
-corrected_code = """
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation";
+import splashAnimation from "./assets/lottie/splashAnimation.json"; // Ensure the file is .json and exists
 
 const splashScreen = {
   enabled: true,
   animation: splashAnimation,
-  duration: 2000
+  duration: 2000,
 };
 
 const illustration = {
-  animated: true
+  animated: true,
 };
 
 const greeting = {
@@ -21,14 +17,14 @@ const greeting = {
   subTitle: emoji(
     "I am a dedicated and passionate individual striving to make a meaningful impact in technology and entrepreneurship. With interests in Machine Learning, IoT, and Sustainable Technology, I thrive at the intersection of cutting-edge technology and real-world applications."
   ),
-  displayGreeting: true
+  displayGreeting: true,
 };
 
 const socialMediaLinks = {
   github: "https://github.com/Sadurthika-G",
   linkedin: "https://www.linkedin.com/in/sadurthika-g-770b73262",
   gmail: "sadurthig@gmail.com",
-  display: true
+  display: true,
 };
 
 const skillsSection = {
@@ -37,7 +33,7 @@ const skillsSection = {
   skills: [
     emoji("💡 Applying IoT and AI to solve real-world problems"),
     emoji("🌱 Promoting sustainable and impactful technologies"),
-    emoji("🌟 Leading initiatives in entrepreneurship and tech communities")
+    emoji("🌟 Leading initiatives in entrepreneurship and tech communities"),
   ],
   softwareSkills: [
     { skillName: "Machine Learning", fontAwesomeClassname: "fas fa-robot" },
@@ -46,9 +42,9 @@ const skillsSection = {
     { skillName: "Arduino", fontAwesomeClassname: "fas fa-microchip" },
     { skillName: "Tinkercad", fontAwesomeClassname: "fas fa-tools" },
     { skillName: "Leadership", fontAwesomeClassname: "fas fa-users" },
-    { skillName: "Sustainable Tech", fontAwesomeClassname: "fas fa-leaf" }
+    { skillName: "Sustainable Tech", fontAwesomeClassname: "fas fa-leaf" },
   ],
-  display: true
+  display: true,
 };
 
 const educationInfo = {
@@ -63,10 +59,10 @@ const educationInfo = {
         "Secretary - IEEE JIT Student Branch",
         "Founder & CTO at CiviMastro Technologies Private Limited",
         "JIT IIC Ambassador",
-        "NSS Volunteer"
-      ]
-    }
-  ]
+        "NSS Volunteer",
+      ],
+    },
+  ],
 };
 
 const techStack = {
@@ -75,19 +71,19 @@ const techStack = {
     { Stack: "Machine Learning", progressPercentage: "60%" },
     { Stack: "IoT & Embedded Systems", progressPercentage: "75%" },
     { Stack: "Sustainable Innovation", progressPercentage: "80%" },
-    { Stack: "Leadership & Communication", progressPercentage: "85%" }
+    { Stack: "Leadership & Communication", progressPercentage: "85%" },
   ],
-  displayCodersrank: false
+  displayCodersrank: false,
 };
 
 const workExperiences = {
   display: false,
-  experience: []
+  experience: [],
 };
 
 const openSource = {
   showGithubProfile: "true",
-  display: true
+  display: true,
 };
 
 const bigProjects = {
@@ -95,21 +91,21 @@ const bigProjects = {
   subtitle: "Here are a few of my impactful works",
   projects: [
     {
-      image: "https://via.placeholder.com/150",
+      image: require("./assets/images/project1.png"),
       projectName: "Structural Integrity Assessment & Maintenance System (SIAMS)",
       projectDesc:
         "AI-based structural safety system designed to monitor and assess buildings in real-time.",
-      footerLink: [{ name: "GitHub", url: "https://github.com/Sadurthika-G" }]
+      footerLink: [{ name: "GitHub", url: "https://github.com/Sadurthika-G" }],
     },
     {
-      image: "https://via.placeholder.com/150",
+      image: require("./assets/images/project2.png"),
       projectName: "IoT-enabled Sericulture Unit",
       projectDesc:
         "Automated disinfection and temperature control system for sericulture productivity.",
-      footerLink: [{ name: "GitHub", url: "https://github.com/Sadurthika-G" }]
-    }
+      footerLink: [{ name: "GitHub", url: "https://github.com/Sadurthika-G" }],
+    },
   ],
-  display: true
+  display: true,
 };
 
 const achievementSection = {
@@ -131,9 +127,9 @@ const achievementSection = {
     {
       title: "Hackathon Champion",
       subtitle: "EDII Hackathon 2024 by Govt. of Tamil Nadu – 1st Prize",
-    }
+    },
   ],
-  display: true
+  display: true,
 };
 
 const blogSection = {
@@ -144,22 +140,24 @@ const blogSection = {
     {
       url: "https://medium.com/@sadurthig",
       title: "From Ideas to Impact – My Startup Journey",
-      description: "Reflections on building sustainable tech solutions through innovation."
-    }
+      description:
+        "Reflections on building sustainable tech solutions through innovation.",
+    },
   ],
-  display: true
+  display: true,
 };
 
 const resumeSection = {
   title: "Resume",
-  subtitle: "To know more about me visit :https://docs.google.com/spreadsheets/d/1LsirOvNEmcWH8F4SifbiE5_dDHBVOGdI0pdVGmhh6HM/edit?usp=sharing",
-  display: true
+  subtitle:
+    "To know more about me visit: https://docs.google.com/spreadsheets/d/1LsirOvNEmcWH8F4SifbiE5_dDHBVOGdI0pdVGmhh6HM/edit?usp=sharing",
+  display: true,
 };
 
 const contactInfo = {
   title: emoji("Contact Me 📬"),
   subtitle: "Let's collaborate and innovate together!",
-  email_address: "sadurthig@gmail.com"
+  email_address: "sadurthig@gmail.com",
 };
 
 const isHireable = false;
@@ -179,7 +177,7 @@ export {
   blogSection,
   contactInfo,
   isHireable,
-  resumeSection
+  resumeSection,
 };
-"""
+
 
