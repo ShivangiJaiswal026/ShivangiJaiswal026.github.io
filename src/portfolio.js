@@ -1,3 +1,7 @@
+from pathlib import Path
+
+# Corrected JavaScript code with placeholder image URLs instead of local requires
+corrected_code = """
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
 
@@ -91,14 +95,14 @@ const bigProjects = {
   subtitle: "Here are a few of my impactful works",
   projects: [
     {
-      image: require("./assets/images/project1.png"),
+      image: "https://via.placeholder.com/150",
       projectName: "Structural Integrity Assessment & Maintenance System (SIAMS)",
       projectDesc:
         "AI-based structural safety system designed to monitor and assess buildings in real-time.",
       footerLink: [{ name: "GitHub", url: "https://github.com/Sadurthika-G" }]
     },
     {
-      image: require("./assets/images/project2.png"),
+      image: "https://via.placeholder.com/150",
       projectName: "IoT-enabled Sericulture Unit",
       projectDesc:
         "Automated disinfection and temperature control system for sericulture productivity.",
@@ -177,4 +181,5 @@ export {
   isHireable,
   resumeSection
 };
+"""
 
