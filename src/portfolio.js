@@ -167,6 +167,13 @@ const talkSection = {
   display: false
 };
 
+const podcastSection = {
+  title: "Podcasts",
+  subtitle: "I've had the pleasure of being a guest on some great podcasts.",
+  podcasts: [], // You can add podcast objects here
+  display: false
+};
+
 export {
   illustration,
   greeting,
@@ -183,5 +190,6 @@ export {
   contactInfo,
   isHireable,
   resumeSection,
-  talkSection // Added talkSection here
+  talkSection,
+  podcastSection // Added podcastSection here
 };
