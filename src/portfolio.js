@@ -52,7 +52,6 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Jansons Institute of Technology",
-      logo: require("./assets/images/collegeLogo.png"), // Add your logo
       subHeader: "Bachelor of Engineering - ECE",
       duration: "2022 - 2026",
       desc: "Active participant and leader in multiple tech and innovation communities",
@@ -167,7 +166,6 @@ const contactInfo = {
   email_address: "sadurthig@gmail.com"
 };
 
-
 const isHireable = false;
 
 export {
@@ -187,3 +185,4 @@ export {
   isHireable,
   resumeSection
 };
+
