@@ -160,6 +160,13 @@ const contactInfo = {
 
 const isHireable = false;
 
+const talkSection = {
+  title: emoji("Talks and Presentations 🎙️"),
+  subtitle: "I love sharing my knowledge and experiences at events and conferences.",
+  talks: [], // You can add talk objects here
+  display: false
+};
+
 export {
   illustration,
   greeting,
@@ -175,14 +182,6 @@ export {
   blogSection,
   contactInfo,
   isHireable,
-  resumeSection
+  resumeSection,
+  talkSection // Added talkSection here
 };
-
-
-
-
-
-
-
-
-
