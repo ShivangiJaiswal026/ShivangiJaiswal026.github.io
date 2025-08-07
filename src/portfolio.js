@@ -174,6 +174,11 @@ const podcastSection = {
   display: false
 };
 
+const twitterDetails = {
+  userName: "YourTwitterUsername", // Replace with your Twitter username
+  display: false
+};
+
 export {
   illustration,
   greeting,
@@ -191,5 +196,6 @@ export {
   isHireable,
   resumeSection,
   talkSection,
-  podcastSection // Added podcastSection here
+  podcastSection,
+  twitterDetails
 };
