@@ -83,7 +83,11 @@ cd developerFolio
 cp env.example .env
 # For Windows
 copy env.example .env
+```
 
+NOTE: You must configure environment variables before running your portfolio, as certain components rely on API data. Failure to do so will result in a 401 Unauthorized error.
+
+```bash
 # Install dependencies
 npm install
 
