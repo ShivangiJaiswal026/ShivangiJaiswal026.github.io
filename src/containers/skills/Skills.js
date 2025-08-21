@@ -45,7 +45,8 @@ export default function Skills() {
             </p>
             <SoftwareSkill />
             <div>
-              {skillsSection.skills.map((skills, i) => {
+              {skillsSection.skills.map((line, i) => {
+                const [label, rest] = String(line).split(":");
                 return (
                   <p
                     key={i}
@@ -55,7 +56,8 @@ export default function Skills() {
                         : "subTitle skills-text"
                     }
                   >
-                    {skills}
+                    <strong>{label}:</strong>
+                    {rest ? ` ${rest}` : ""}
                   </p>
                 );
               })}

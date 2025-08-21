@@ -6,6 +6,10 @@
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: stretch;
+  overflow: hidden;
 }
 
 .experience-card-dark {
@@ -14,6 +18,10 @@
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: stretch;
+  overflow: hidden;
 }
 
 .experience-card:hover {
@@ -21,43 +29,25 @@
 }
 
 .experience-banner {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 150%;
-  background: $experienceCardBannerLG;
-  border-radius: 10px 10px 0px 0px;
-  -webkit-filter: blur(0px);
-  -moz-filter: blur(0px);
-  -o-filter: blur(0px);
-  -ms-filter: blur(0px);
-  filter: blur(0px);
-  height: 11rem;
+  background: #111827; /* darker */
+  border-radius: 10px 0 0 10px;
+  height: 100%;
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  padding: 1.5rem;
+  overflow: hidden;
 }
 
 .experience-blurred_div {
-  position: absolute;
-  background: $experienceCardBlurredDivLG;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-  height: 11rem;
-  top: 0;
-  left: 0;
-  width: 100%;
-  border-radius: 10px 10px 0px 0px;
+  display: none;
 }
 
 .experience-div-company {
-  position: absolute;
+  position: static;
   background: transparent;
-  height: 9rem;
-  top: 0;
-  left: 0;
+  height: auto;
   width: 100%;
   display: flex;
   align-items: center;
@@ -66,66 +56,62 @@
 
 .experience-text-company {
   text-align: center;
-  padding: 1.5rem;
+  padding: 0.5rem 1rem;
   margin: 0;
   color: $lightBackground1;
   font-size: 25px;
-  text-align: center;
   font-weight: 700;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
+  overflow-wrap: anywhere;
+  white-space: normal;
 }
 
 .experience-roundedimg {
-  position: absolute;
+  position: static;
   object-fit: cover;
-  left: 0;
-  right: 0;
-  top: 7rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 8rem;
-  height: 8rem;
+  margin-top: 1rem;
+  width: 6.5rem;
+  height: 6.5rem;
+  max-width: 90%;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
 }
 
 .experience-text-role {
-  text-align: center;
+  text-align: left;
   color: $textColor;
   font-weight: 700;
   font-size: 25px;
   margin: 0px;
-  padding-top: 1.5rem;
+  padding-top: 0;
   line-height: normal;
 }
 .dark-mode-text {
   color: $textColorDark !important;
 }
 .experience-text-date {
-  text-align: center;
+  text-align: left;
   color: $textColor;
   font-size: 20px;
   margin: 0px;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   font-weight: 600;
 }
 
 .experience-text-desc {
-  text-align: center;
+  text-align: left;
 }
 
 .experience-text-details {
   padding: 1.5rem;
-  margin-top: 2rem;
+  margin-top: 0;
+  border-radius: 0 10px 10px 0;
 }
 
 /* Media Query */
 
 @media (max-width: 1380px) {
   .experience-text-role {
-    padding-top: 0.5rem;
+    padding-top: 0;
     font-size: 22px;
   }
   .experience-text-company {
@@ -135,22 +121,32 @@
     font-size: 18px;
   }
   .experience-roundedimg {
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 6rem;
+    height: 6rem;
   }
 }
 
 @media (max-width: 768px) {
+  .experience-card,
+  .experience-card-dark {
+    grid-template-columns: 1fr;
+  }
+  .experience-banner {
+    border-radius: 10px 10px 0 0;
+  }
   .experience-text-role {
     font-size: 22px;
+    text-align: center;
   }
   .experience-text-company {
     font-size: 22px;
   }
   .experience-text-date {
     font-size: 18px;
+    text-align: center;
   }
   .experience-text-desc {
     font-size: 16px;
+    text-align: left;
   }
 }
