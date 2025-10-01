@@ -20,104 +20,62 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  username: "Asiana Holloway",
+  title: "Hi, I'm Asiana",
+  subTitle:
+    "🎓 Graduate Student in Health Informatics at Michigan Tech\n📌 Passionate about AI in Healthcare | Data-Driven Decision Making | Health Information | Digital Health Innovation\n📍 Based in Houston, TX | 6+ years of experience in healthcare operations",
+  resumeLink: "", // Add link later if desired
+  displayGreeting: true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  github: "https://github.com/AsianaHolloway",
+  linkedin: "https://www.linkedin.com/in/asiana-holloway-053985196/",
+  gmail: "holloway.asiana@gmail.com",
+  display: true
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Technical Skillset",
+  subTitle:
+    "Equipping digital healthcare innovation with hands-on expertise in data science, intelligent systems, and cloud-powered tools.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚕️ Build intelligent healthcare apps using AI and machine learning models"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "📊 Perform data analysis and visualization using Python, R, and SQL"
+    ),
+    emoji("📡 Work with IoMT, EHR systems, and healthcare data pipelines"),
+    emoji(
+      "⚡ Develop data-driven prototypes and APIs using Flask, AWS, and Postman"
     )
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "R", fontAwesomeClassname: "fas fa-chart-line"},
+    {skillName: "HTML5", fontAwesomeClassname: "fab fa-html5"},
+    {skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt"},
+    {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js"},
+    {skillName: "PyTorch", fontAwesomeClassname: "fas fa-brain"},
+    {skillName: "TensorFlow", fontAwesomeClassname: "fas fa-project-diagram"},
+    {skillName: "Pandas", fontAwesomeClassname: "fas fa-table"},
+    {skillName: "NumPy", fontAwesomeClassname: "fas fa-square-root-alt"},
+    {skillName: "Scikit-learn", fontAwesomeClassname: "fas fa-robot"},
+    {skillName: "Flask", fontAwesomeClassname: "fas fa-flask"},
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"},
+    {skillName: "Jupyter", fontAwesomeClassname: "fas fa-book"},
+    {skillName: "Google Colab", fontAwesomeClassname: "fas fa-cloud"},
+    {skillName: "AWS Lambda", fontAwesomeClassname: "fas fa-cloud"},
+    {skillName: "DynamoDB", fontAwesomeClassname: "fas fa-server"},
+    {skillName: "API Gateway", fontAwesomeClassname: "fas fa-plug"}
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Education Section
@@ -126,23 +84,29 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Michigan Technological University",
+      logo: require("./assets/images/michiganTechLogo.png"),
+      subHeader: "Master's in Health Informatics",
+      duration: "2023 – Present",
+      desc: "College of Computing",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Specializing in AI in Healthcare and Digital Health Innovation",
+        "Graduate coursework in applied computing and healthcare data science",
+        "Dean’s List | Expected Graduation: Spring 2026"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Tennessee State University",
+      logo: require("./assets/images/Seal_transparent.png"),
+      subHeader: "Bachelor’s in Business Administration",
+      duration: "Graduated 2020",
+      desc: "",
+      descBullets: [
+        "Completed core business courses and participated in student leadership and professional organizations",
+        "Dean’s List honoree",
+        "Member of National Honor Society",
+        "Pledged and initiated into Alpha Kappa Psi (Business Fraternity)"
+      ]
     }
   ]
 };
@@ -158,11 +122,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +138,41 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Referral Services Assistant Senior Lead",
+      company: "Carelon MBM",
+      companylogo: require("./assets/images/carelon.png"),
+      date: "2019 – Present",
+      desc: "Carelon Medical Benefits Management (subsidiary of Elevance Health)",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Provide post-clinical review and utilization management support for healthcare prior authorizations. Verify correct CMS citations and physician rationale, process approvals/denials, and issue determination letters. Cross trained in Post-Acute Care (PAC Medicare) and Durable Medical Equipment (DME) denial processes",
+        "6+ years experience in healthcare operations and utilization management",
+        "Act as liaison between physicians, healthcare agencies, and insurance providers ensuring accurate and timely decision process",
+        "Skilled in reviewing complex clinical documentation for medical necessity"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Graduate Course Project",
+      company: "Internet of Medical Things",
+      companylogo: require("./assets/images/Wellness Wave.png"),
+      date: "2024",
+      desc: "Graduate course at Michigan Technological University focused on IoT in healthcare. Designed and developed a mobile app called Wellness Wave to track mood and heart rate using Fitbit API and AWS integration.",
+      descBullets: [
+        "Implemented frontend using Flutter and backend using AWS Lambda, API Gateway, and DynamoDB",
+        "Connected wearable IoT devices to cloud-based architecture",
+        "Developed features for mood check-ins, heart rate data visualization, and data storage"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Graduate Course Project",
+      company: "Applied AI in Healthcare",
+      companylogo: require("./assets/images/AI_icon.png"),
+      date: "2024",
+      desc: "Graduate course at Michigan Technological University focused on advanced machine learning and medical imaging.",
+      descBullets: [
+        "Applied transfer learning and federated learning for medical image classification",
+        "Built CNNs for ECG signal classification and chest X-ray analysis for breast cancer detection",
+        "Performed preprocessing, model tuning, and evaluation using PyTorch, TensorFlow, and Scikit-learn"
+      ]
     }
   ]
 };
@@ -212,34 +188,66 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Portfolio Projects",
+  subtitle: "Academic and Applied Projects in AI, Healthcare, and Data Science",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "WellnessWave - IoMT Wearable Stress App",
+      projectDesc:
+        "Developed a full-stack mobile app for real-time stress tracking using wearable data.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Details",
+          url: "https://github.com/AsianaHolloway/WellnessWave-IoMT-App" // You can paste your GitHub link or leave empty
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Predicting Heart Disease Risk – ML Classifier Models",
+      projectDesc:
+        "Built and compared multiple models to predict heart disease based on patient data.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Details",
+          url: "https://github.com/AsianaHolloway/Exploring-Machine-Learning-Applications-in-Predicting-Heart-Disease-risk"
+        }
+      ]
+    },
+    {
+      projectName: "Analyzing Employee Attrition Using Spark and Python",
+      projectDesc:
+        "Performed distributed data analysis to examine employee attrition trends.",
+      footerLink: [
+        {
+          name: "View Details",
+          url: "https://github.com/AsianaHolloway/Analyzing-Employee-Attrition-Using-Spark-and-Python"
+        }
+      ]
+    },
+    {
+      projectName: "Primary Care Telehealth Visits – Research Collaboration",
+      projectDesc:
+        "Collaborated with classmates to investigate the use of telehealth in primary care settings.",
+      footerLink: [
+        {
+          name: "View Details",
+          url: "https://github.com/AsianaHolloway/Primary-Care-Telehealth-Visits"
+        }
+      ]
+    },
+    {
+      projectName: "Low Level Differential Diagnostic System",
+      projectDesc:
+        "A rule-based decision support demo built with python, SQLAlchemy, and Juypter Notebook",
+      footerLink: [
+        {
+          name: "View Details",
+          url: "https://github.com/AsianaHolloway/AssignmentDifferentialDiagnostics"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
@@ -300,7 +308,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +332,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +351,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +364,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -365,25 +373,24 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "holloway.asiana@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
