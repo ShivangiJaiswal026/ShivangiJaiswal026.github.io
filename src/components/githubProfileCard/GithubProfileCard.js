@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 import "./GithubProfileCard.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import { contactInfo, isHireable } from "../../portfolio";
+import {contactInfo, isHireable} from "../../portfolio";
 import emoji from "react-easy-emoji";
-import { Fade } from "react-reveal";
+import {Fade} from "react-reveal";
 
 const useCustomAvatar = process.env.REACT_APP_USE_CUSTOM_AVATAR === "true";
 
-export default function GithubProfileCard({ prof }) {
+export default function GithubProfileCard({prof}) {
   const [customImageExists, setCustomImageExists] = useState(false);
   const [avatarSrc, setAvatarSrc] = useState(prof.avatarUrl);
 
@@ -75,13 +75,11 @@ export default function GithubProfileCard({ prof }) {
             <SocialMedia />
           </div>
           <div className="image-content-profile">
-            <img
-              src={avatarSrc}
-              alt={prof.name}
-              className="profile-image"
-            />
+            <img src={avatarSrc} alt={prof.name} className="profile-image" />
             {useCustomAvatar && !customImageExists && (
-              <p className="fallback-note">(Using GitHub avatar — custom not found)</p>
+              <p className="fallback-note">
+                (Using GitHub avatar — custom not found)
+              </p>
             )}
           </div>
         </div>
