@@ -1,16 +1,42 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./GithubProfileCard.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {contactInfo, isHireable} from "../../portfolio";
 import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
 
+const useCustomAvatar = process.env.REACT_APP_USE_CUSTOM_AVATAR === "true";
+
 export default function GithubProfileCard({prof}) {
+  const [customImageExists, setCustomImageExists] = useState(false);
+  const [avatarSrc, setAvatarSrc] = useState(prof.avatarUrl);
+
   if (isHireable) {
     prof.hireable = "Yes";
   } else {
     prof.hireable = "No";
   }
+
+  useEffect(() => {
+    if (useCustomAvatar) {
+      const candidateSrc = "/custom-avatar.png";
+
+      const img = new Image();
+      img.src = candidateSrc;
+
+      img.onload = () => {
+        setCustomImageExists(true);
+        setAvatarSrc(candidateSrc);
+      };
+      img.onerror = () => {
+        setCustomImageExists(false);
+        setAvatarSrc(prof.avatarUrl);
+      };
+    } else {
+      setAvatarSrc(prof.avatarUrl);
+    }
+  }, [useCustomAvatar, prof.avatarUrl]);
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="contact">
@@ -21,7 +47,7 @@ export default function GithubProfileCard({prof}) {
               <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
             </div>
             <h2 className="bio-text">"{emoji(String(prof.bio))}"</h2>
-            {prof.location !== null && (
+            {prof.location && (
               <div className="location-div">
                 <span className="desc-prof">
                   <svg
@@ -49,11 +75,12 @@ export default function GithubProfileCard({prof}) {
             <SocialMedia />
           </div>
           <div className="image-content-profile">
-            <img
-              src={prof.avatarUrl}
-              alt={prof.name}
-              className="profile-image"
-            />
+            <img src={avatarSrc} alt={prof.name} className="profile-image" />
+            {useCustomAvatar && !customImageExists && (
+              <p className="fallback-note">
+                (Using GitHub avatar — custom not found)
+              </p>
+            )}
           </div>
         </div>
       </div>
