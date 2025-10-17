@@ -21,7 +21,7 @@ import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
 import AIChatBot from "../components/AIChatBot/AIChatBot";
-import { GitRepoProvider } from "../contexts/GitRepoContext";
+import {GitRepoProvider} from "../contexts/GitRepoContext";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");

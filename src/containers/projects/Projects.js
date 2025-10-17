@@ -8,12 +8,12 @@ import Loading from "../../containers/loading/Loading";
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
-  ); 
-   
+  );
+
   const FailedLoading = () => null;
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
-  
+
   // todo: remove useContex because is not supported
   const {isDark} = useContext(StyleContext);
 
