@@ -6,6 +6,16 @@
   "commit": false,
   "contributors": [
     {
+      "login": "saymanlal",
+      "name": "Sayman Lal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/135053354?s=96&v=4",
+      "profile": "http://worksofsayman.vercel.app",
+      "contributions": [
+        "ideas",
+        "code"
+      ]
+    },
+    {
       "login": "9inpachi",
       "name": "Fawad Ali",
       "avatar_url": "https://avatars2.githubusercontent.com/u/36920441?v=4",
