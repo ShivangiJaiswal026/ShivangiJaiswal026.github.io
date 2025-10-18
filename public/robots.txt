@@ -1,2 +1,56 @@
-# https://www.robotstxt.org/robotstxt.html
+# robots.txt for DeveloperFolio (https://developerfolio.js.org/)
+# Optimized for SEO, AEO, and responsible AI crawling
+# © DeveloperFolio Community — Open Source MIT Licensed
+
 User-agent: *
+Allow: /
+
+# Prevent crawling of build artifacts, node modules, and temporary files
+Disallow: /build/
+Disallow: /node_modules/
+Disallow: /scripts/
+Disallow: /temp/
+Disallow: /drafts/
+Disallow: /*?*utm_*
+Disallow: /*?*ref=*
+
+# Allow all bots to access images, CSS, JS, and assets
+Allow: /*.js$
+Allow: /*.css$
+Allow: /static/
+Allow: /assets/
+Allow: /images/
+
+# Sitemap for better discoverability
+Sitemap: https://developerfolio.js.org/sitemap.xml
+
+# Crawl-delay to prevent overloading (optional)
+Crawl-delay: 10
+
+# Explicitly allow legitimate AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Block known data scrapers & content scrapers (optional)
+User-agent: MJ12bot
+Disallow: /
+User-agent: AhrefsBot
+Disallow: /
+User-agent: DataForSeoBot
+Disallow: /
+User-agent: DotBot
+Disallow: /
+
+# End of file
