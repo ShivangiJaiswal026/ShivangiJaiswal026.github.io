@@ -192,6 +192,11 @@ const twitterDetails = { ... }
 #### Resume upload
 To upload your own resume, simply upload a pdf to `src/containers/greeting/resume` and rename the pdf to `resume.pdf`. 
 
+You can also choose to link to an online resume (e.g., in Google Drive) or use a local PDF file. To configure this, use the `useLocalResume` flag in the `greeting` object in `portfolio.js`:
+
+-   Set `useLocalResume: true` to use the local `resume.pdf` file.
+-   Set `useLocalResume: false` to use the `resumeLink` URL.
+
 #### Using Emojis
 
 For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
