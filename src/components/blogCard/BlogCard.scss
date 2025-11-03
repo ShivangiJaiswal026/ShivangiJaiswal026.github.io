@@ -6,6 +6,7 @@
 
 .blog-container {
   border-radius: 10px;
+  margin-top: 30px;
   color: $blogCardContainerColor;
   background-color: $lightBackground1;
   box-shadow: 0 0 36px $lightBoxShadow;
@@ -145,5 +146,5 @@
   }
 }
 .blog-card-shadow {
-  box-shadow: 1px 0px 20px $darkBoxShadow2;
+  box-shadow: 1px 5px 10px $darkBoxShadow2;
 }

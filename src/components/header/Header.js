@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, {useContext, useEffect} from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -23,6 +23,13 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
+
+  useEffect(() => {
+    const checkbox = document.querySelector(".menu-btn");
+    if (checkbox) {
+      checkbox.checked = false;
+    }
+  }, [isDark]);
 
   return (
     <Headroom>
