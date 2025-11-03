@@ -1,19 +1,19 @@
-import React, { useContext } from "react";
+import React, {useContext} from "react";
 import "./Achievement.scss";
 import AchievementCard from "../../components/achievementCard/AchievementCard";
-import { achievementSection } from "../../portfolio";
-import { Fade } from "react-reveal";
+import {achievementSection} from "../../portfolio";
+import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectFlip, Pagination, Navigation } from "swiper/modules";
+import {Swiper, SwiperSlide} from "swiper/react";
+import {EffectFlip, Pagination, Navigation} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-flip";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 export default function Achievement() {
-  const { isDark } = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
   if (!achievementSection.display) {
     return null;
   }
@@ -46,7 +46,7 @@ export default function Achievement() {
               loop={true}
               effect={"flip"}
               grabCursor={true}
-              pagination={{ clickable: true }}
+              pagination={{clickable: true}}
               navigation={true}
               modules={[EffectFlip, Pagination, Navigation]}
               className="mySwiper"
