@@ -1,3 +1,24 @@
+.mySwiper {
+  width: 80%;
+  height: 450px;
+  margin: auto;
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #007bff;
+  }
+
+  .swiper-pagination-bullet {
+    background: #007bff;
+  }
+}
+
 .experience-cards-div {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
