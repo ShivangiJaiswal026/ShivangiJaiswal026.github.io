@@ -1,5 +1,26 @@
 @import "../../_globalColor";
 
+.mySwiper {
+  width: 80%;
+  height: 450px;
+  margin: auto;
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #007bff;
+  }
+
+  .swiper-pagination-bullet {
+    background: #007bff;
+  }
+}
+
 .achievement-heading {
   font-size: 56px;
   font-weight: 400;
