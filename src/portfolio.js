@@ -206,9 +206,7 @@ const talkSection = {
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I love to talk about Android, software development, and tech in general",
-  podcast: [
-    "https://anchor.fm/shivangicodes/embed"
-  ],
+  podcast: ["https://anchor.fm/shivangicodes/embed"],
   display: true
 };
 
