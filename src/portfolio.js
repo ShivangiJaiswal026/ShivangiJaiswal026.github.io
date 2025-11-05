@@ -34,8 +34,7 @@ const socialMediaLinks = {
 // Skills Section
 const skillsSection = {
   title: "What I Do",
-  subTitle:
-    "Android Developer focused on performance, design, and scalable architecture",
+  subTitle: "Android Developer focused on performance, design, and scalable architecture",
   skills: [
     emoji("⚡ Develop modern Android apps using Kotlin, Jetpack Compose & MVVM"),
     emoji("⚡ Integrate REST, GraphQL & gRPC APIs with secure authentication"),
@@ -103,6 +102,12 @@ const workExperiences = {
   ]
 };
 
+// Open Source Section
+const openSource = {
+  showGithubProfile: true,
+  display: true
+};
+
 // Big Projects
 const bigProjects = {
   title: "Projects",
@@ -111,52 +116,36 @@ const bigProjects = {
     {
       image: require("./assets/images/androidLogo.png"),
       projectName: "Suki – Digital Assistant for Doctors",
-      projectDesc:
-        "Voice-enabled AI assistant simplifying medical documentation with real-time transcription and EHR integration.",
+      projectDesc: "Voice-enabled AI assistant simplifying medical documentation with real-time transcription and EHR integration.",
       footerLink: [
-        {
-          name: "Play Store",
-          url: "https://play.google.com/store/apps/details?id=com.suki.suki"
-        }
+        { name: "Play Store", url: "https://play.google.com/store/apps/details?id=com.suki.suki" }
       ]
     },
     {
       image: require("./assets/images/androidLogo.png"),
       projectName: "Yamaha LMS – Merchant & Customer Apps",
-      projectDesc:
-        "Reward and loyalty apps with QR scanning, ExoPlayer integration, and OTP auto-read.",
+      projectDesc: "Reward and loyalty apps with QR scanning, ExoPlayer integration, and OTP auto-read.",
       footerLink: [
-        {
-          name: "Merchant App",
-          url: "https://play.google.com/store/apps/details?id=com.yamaha_merchant.genblu"
-        },
-        {
-          name: "Customer App",
-          url: "https://play.google.com/store/apps/details?id=com.yamahamotors.genblu"
-        }
+        { name: "Merchant App", url: "https://play.google.com/store/apps/details?id=com.yamaha_merchant.genblu" },
+        { name: "Customer App", url: "https://play.google.com/store/apps/details?id=com.yamahamotors.genblu" }
       ]
     },
     {
       image: require("./assets/images/androidLogo.png"),
       projectName: "Quambio",
-      projectDesc:
-        "Gamified sustainability app tracking CO₂ reduction using Strava API integration.",
+      projectDesc: "Gamified sustainability app tracking CO₂ reduction using Strava API integration.",
       footerLink: [
-        {
-          name: "Play Store",
-          url: "https://play.google.com/store/apps/details?id=ch.quambio.co2"
-        }
+        { name: "Play Store", url: "https://play.google.com/store/apps/details?id=ch.quambio.co2" }
       ]
     }
   ],
   display: true
 };
 
-// Achievements
+// Achievement Section
 const achievementSection = {
   title: emoji("Achievements & Recognitions 🏆"),
-  subtitle:
-    "Awards, recognitions, and community contributions in Android development",
+  subtitle: "Awards, recognitions, and community contributions in Android development",
   achievementsCards: [
     {
       title: "Winner – Suki Internal Hackathon",
@@ -164,13 +153,11 @@ const achievementSection = {
     },
     {
       title: "LinkedIn Top Voice",
-      subtitle:
-        "Recognized for sharing insights on Android, software development, and tech community engagement."
+      subtitle: "Recognized for sharing insights on Android, software development, and tech community engagement."
     },
     {
       title: "UPCST Project Lead",
-      subtitle:
-        "Led a project funded by Uttar Pradesh Council of Science and Technology."
+      subtitle: "Led a project funded by Uttar Pradesh Council of Science and Technology."
     },
     {
       title: "AICTE Merit Scholarship",
@@ -180,11 +167,62 @@ const achievementSection = {
   display: true
 };
 
+// Blog Section
+const blogSection = {
+  title: "Blogs",
+  subtitle: "With love for developing cool stuff, I write and share insights about Android development.",
+  displayMediumBlogs: "true",
+  blogs: [
+    {
+      url: "https://medium.com/@shivangicodes/android-modern-architecture-101",
+      title: "Modern Android Architecture Explained",
+      description: "A practical guide to building scalable Android apps with MVVM, Jetpack, and clean architecture."
+    },
+    {
+      url: "https://medium.com/@shivangicodes/android-performance-optimization",
+      title: "Android App Performance Optimization Tips",
+      description: "Techniques to make your Android apps faster, smoother, and more battery-efficient."
+    }
+  ],
+  display: true
+};
+
+// Talks Section
+const talkSection = {
+  title: "TALKS",
+  subtitle: emoji("Sharing knowledge and experiences in Android development"),
+  talks: [
+    {
+      title: "Building Scalable Android Apps",
+      subtitle: "Tech Talk at GDG DevFest 2023",
+      slides_url: "https://bit.ly/shivangi-android-slides",
+      event_url: "https://www.meetup.com/gdg-devfest/events/123456789/"
+    }
+  ],
+  display: true
+};
+
+// Podcast Section
+const podcastSection = {
+  title: emoji("Podcast 🎙️"),
+  subtitle: "I love to talk about Android, software development, and tech in general",
+  podcast: [
+    "https://anchor.fm/shivangicodes/embed"
+  ],
+  display: true
+};
+
+// Resume Section
+const resumeSection = {
+  title: "Resume",
+  subtitle: "Feel free to download my resume",
+  display: true
+};
+
 // Contact Info
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Open to collaborations, Android projects, or just a friendly chat about tech.",
+  subtitle: "Open to collaborations, Android projects, or just a friendly chat about tech.",
   number: "+91 8004237128",
   email_address: "shivangijaiswal26@gmail.com"
 };
@@ -193,6 +231,7 @@ const contactInfo = {
 const twitterDetails = { userName: "", display: false };
 const isHireable = true;
 
+// Export all sections
 export {
   illustration,
   greeting,
@@ -202,9 +241,14 @@ export {
   educationInfo,
   techStack,
   workExperiences,
+  openSource,
   bigProjects,
   achievementSection,
+  blogSection,
+  talkSection,
+  podcastSection,
   contactInfo,
   twitterDetails,
-  isHireable
+  isHireable,
+  resumeSection
 };
