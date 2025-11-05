@@ -1,235 +1,390 @@
-/* Shivangi Jaiswal – Android Developer Portfolio */
+/* Change this file to get your personal Portfolio */
+
+// To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation";
+import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
+
 const splashScreen = {
-  enabled: true,
+  enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000
+  duration: 2000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
-const illustration = { animated: true };
+
+const illustration = {
+  animated: true // Set to false to use static SVG
+};
 
 const greeting = {
-  username: "Shivangi Jaiswal",
-  title: "Hi there 👋 I'm Shivangi",
+  username: "PRANIT Ji",
+  title: "PRANIT Ji you are so handsome",
   subTitle: emoji(
-    "An Android Engineer skilled in Kotlin, Java, and Jetpack Compose. I build scalable, secure, and user-focused mobile apps using clean architecture and modern Android practices."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
-  resumeLink: "https://www.linkedin.com/in/shivangicodes/",
-  displayGreeting: true
+  resumeLink:
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
+
 const socialMediaLinks = {
-  github: "https://github.com/ShivangiJaiswal026",
-  linkedin: "https://www.linkedin.com/in/shivangicodes/",
-  gmail: "shivangijaiswal26@gmail.com",
-  display: true
+  github: "https://github.com/SHIVANGIpasta",
+  linkedin: "https://www.linkedin.com/in/SHIVANGIpasta/",
+  gmail: "SHIVANGIpasta70@gmail.com",
+  gitlab: "https://gitlab.com/SHIVANGIpasta",
+  facebook: "https://www.facebook.com/SHIVANGI.pasta7",
+  medium: "https://medium.com/@SHIVANGIpasta",
+  stackoverflow: "https://stackoverflow.com/users/10422806/SHIVANGI-pasta",
+  // Instagram, Twitter and Kaggle are also supported in the links!
+  // To customize icons and social links, tweak src/components/SocialMedia
+  display: true // Set true to display this section, defaults to false
 };
 
 // Skills Section
+
 const skillsSection = {
-  title: "What I Do",
-  subTitle: "Android Developer focused on performance, design, and scalable architecture",
+  title: "What I do",
+  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop modern Android apps using Kotlin, Jetpack Compose & MVVM"),
-    emoji("⚡ Integrate REST, GraphQL & gRPC APIs with secure authentication"),
-    emoji("⚡ Optimize app performance, caching, and CI/CD pipelines"),
-    emoji("⚡ Mentor juniors and advocate modern Android practices")
+    emoji(
+      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+    ),
+    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji(
+      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    )
   ],
+
+  /* Make Sure to include correct Font Awesome Classname to view your icon
+https://fontawesome.com/icons?d=gallery */
+
   softwareSkills: [
-    { skillName: "Kotlin", fontAwesomeClassname: "fab fa-android" },
-    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
-    { skillName: "Jetpack Compose", fontAwesomeClassname: "fas fa-mobile-alt" },
-    { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
-    { skillName: "Retrofit", fontAwesomeClassname: "fas fa-network-wired" },
-    { skillName: "Room DB", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "MVVM", fontAwesomeClassname: "fas fa-cubes" },
-    { skillName: "CI/CD", fontAwesomeClassname: "fas fa-code-branch" }
+    {
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "sass",
+      fontAwesomeClassname: "fab fa-sass"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "swift",
+      fontAwesomeClassname: "fab fa-swift"
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    }
   ],
-  display: true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
+
 const educationInfo = {
-  display: true,
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Madan Mohan Malaviya University of Technology",
-      subHeader: "B.Tech in Electronics & Communication Engineering",
-      duration: "2016 – 2020 | 82.2%",
-      desc: "Active in IEEE, Robotics Club, and led multiple tech committees."
+      schoolName: "Harvard University",
+      logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "Master of Science in Computer Science",
+      duration: "September 2017 - April 2019",
+      desc: "Participated in the research of XXX and published 3 papers.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    },
+    {
+      schoolName: "Stanford University",
+      logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2013 - April 2017",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
 
-// Tech Stack
+// Your top 3 proficient stacks/tech experience
+
 const techStack = {
-  viewSkillBars: true,
+  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
-    { Stack: "Android Development", progressPercentage: "90%" },
-    { Stack: "Architecture & APIs", progressPercentage: "80%" },
-    { Stack: "UI/UX & Performance", progressPercentage: "85%" }
-  ]
+    {
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Backend",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Programming",
+      progressPercentage: "60%"
+    }
+  ],
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-// Work Experience
+// Work experience section
+
 const workExperiences = {
-  display: true,
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Development Engineer 3",
-      company: "Suki AI",
-      date: "Sept 2022 – Present",
-      desc: "Built AI-powered Android modules with Kotlin and Jetpack Compose, optimized gRPC audio streaming, improved security via Android Keystore, and automated CI/CD using Buildkite."
+      role: "Software Engineer",
+      company: "Facebook",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "June 2018 – Present",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
     },
     {
-      role: "Software Development Engineer",
-      company: "Hummingwave Technologies",
-      date: "Sept 2020 – Sept 2022",
-      desc: "Developed 20+ Android apps across FinTech, EdTech, and Retail using MVVM, Room, and Retrofit; delivered scalable modular architectures and improved efficiency by 40%."
+      role: "Front-End Developer",
+      company: "Quora",
+      companylogo: require("./assets/images/quoraLogo.png"),
+      date: "May 2017 – May 2018",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Operations Intern",
-      company: "Delhi Metro Rail Corporation (DMRC)",
-      date: "May 2019 – July 2019",
-      desc: "Worked with zone controllers to analyze operational circuits and optimize train scheduling and monitoring."
+      role: "Software Engineer Intern",
+      company: "Airbnb",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "Jan 2015 – Sep 2015",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
 
-// Open Source Section
+/* Your Open Source Section to View Your Github Pinned Projects
+To know how to get github key look at readme.md */
+
 const openSource = {
-  showGithubProfile: true,
-  display: true
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
-// Big Projects
+// Some big projects you have worked on
+
 const bigProjects = {
-  title: "Projects",
-  subtitle: "Selected apps published on Play Store",
+  title: "Big Projects",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/androidLogo.png"),
-      projectName: "Suki – Digital Assistant for Doctors",
-      projectDesc: "Voice-enabled AI assistant simplifying medical documentation with real-time transcription and EHR integration.",
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
-        { name: "Play Store", url: "https://play.google.com/store/apps/details?id=com.suki.suki" }
+        {
+          name: "Visit Website",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/androidLogo.png"),
-      projectName: "Yamaha LMS – Merchant & Customer Apps",
-      projectDesc: "Reward and loyalty apps with QR scanning, ExoPlayer integration, and OTP auto-read.",
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Nextu",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
-        { name: "Merchant App", url: "https://play.google.com/store/apps/details?id=com.yamaha_merchant.genblu" },
-        { name: "Customer App", url: "https://play.google.com/store/apps/details?id=com.yamahamotors.genblu" }
-      ]
-    },
-    {
-      image: require("./assets/images/androidLogo.png"),
-      projectName: "Quambio",
-      projectDesc: "Gamified sustainability app tracking CO₂ reduction using Strava API integration.",
-      footerLink: [
-        { name: "Play Store", url: "https://play.google.com/store/apps/details?id=ch.quambio.co2" }
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
       ]
     }
   ],
-  display: true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
+// Include certificates, talks etc
+
 const achievementSection = {
-  title: emoji("Achievements & Recognitions 🏆"),
-  subtitle: "Awards, recognitions, and community contributions in Android development",
+  title: emoji("Achievements And Certifications 🏆 "),
+  subtitle:
+    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+
   achievementsCards: [
     {
-      title: "Winner – Suki Internal Hackathon",
-      subtitle: "People’s Choice Award for innovative Android solution."
+      title: "Google Code-In Finalist",
+      subtitle:
+        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
+        {
+          name: "Award Letter",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        },
+        {
+          name: "Google Code-in Blog",
+          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        }
+      ]
     },
     {
-      title: "LinkedIn Top Voice",
-      subtitle: "Recognized for sharing insights on Android, software development, and tech community engagement."
+      title: "Google Assistant Action",
+      subtitle:
+        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      image: require("./assets/images/googleAssistantLogo.webp"),
+      imageAlt: "Google Assistant Action Logo",
+      footerLink: [
+        {
+          name: "View Google Assistant Action",
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        }
+      ]
     },
+
     {
-      title: "UPCST Project Lead",
-      subtitle: "Led a project funded by Uttar Pradesh Council of Science and Technology."
-    },
-    {
-      title: "AICTE Merit Scholarship",
-      subtitle: "Recipient for 4 consecutive years for academic excellence."
+      title: "PWA Web App Developer",
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: require("./assets/images/pwaLogo.webp"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "Certification", url: ""},
+        {
+          name: "Final Project",
+          url: "https://pakistan-olx-1.firebaseapp.com/"
+        }
+      ]
     }
   ],
-  display: true
+  display: true // Set false to hide this section, defaults to true
 };
 
-// Blog Section
+// Blogs Section
+
 const blogSection = {
   title: "Blogs",
-  subtitle: "With love for developing cool stuff, I write and share insights about Android development.",
-  displayMediumBlogs: "true",
+  subtitle:
+    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://medium.com/@shivangicodes/android-modern-architecture-101",
-      title: "Modern Android Architecture Explained",
-      description: "A practical guide to building scalable Android apps with MVVM, Jetpack, and clean architecture."
+      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      description:
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com/@shivangicodes/android-performance-optimization",
-      title: "Android App Performance Optimization Tips",
-      description: "Techniques to make your Android apps faster, smoother, and more battery-efficient."
+      url: "https://medium.com/@SHIVANGIpasta/why-react-is-the-best-5a97563f423e",
+      title: "Why REACT is The Best?",
+      description:
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true
+  display: true // Set false to hide this section, defaults to true
 };
 
-// Talks Section
+// Talks Sections
+
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji("Sharing knowledge and experiences in Android development"),
+  subtitle: emoji(
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+  ),
+
   talks: [
     {
-      title: "Building Scalable Android Apps",
-      subtitle: "Tech Talk at GDG DevFest 2023",
-      slides_url: "https://bit.ly/shivangi-android-slides",
-      event_url: "https://www.meetup.com/gdg-devfest/events/123456789/"
+      title: "Build Actions For Google Assistant",
+      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      slides_url: "https://bit.ly/SHIVANGIpasta-slides",
+      event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
+
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I love to talk about Android, software development, and tech in general",
-  podcast: ["https://anchor.fm/shivangicodes/embed"],
-  display: true
+  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+
+  // Please Provide with Your Podcast embeded Link
+  podcast: [
+    "https://anchor.fm/codevcast/embed/episodes/DevStory---SHIVANGI-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  display: true
+
+  // Please Provide with Your Podcast embeded Link
+  display: true // Set false to hide this section, defaults to true
 };
 
-// Contact Info
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Open to collaborations, Android projects, or just a friendly chat about tech.",
-  number: "+91 8004237128",
-  email_address: "shivangijaiswal26@gmail.com"
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "+92-0000000000",
+  email_address: "SHIVANGIpasta70@gmail.com"
 };
 
 // Twitter Section
-const twitterDetails = { userName: "", display: false };
-const isHireable = true;
 
-// Export all sections
+const twitterDetails = {
+  userName: "twitter", //Replace "twitter" with your twitter username without @
+  display: true // Set true to display this section, defaults to false
+};
+
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+
 export {
   illustration,
   greeting,
