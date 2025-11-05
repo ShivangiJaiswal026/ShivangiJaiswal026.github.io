@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Shivangi Jaiswal",
-  title: "Hi there I am Shivangi",
+  title: "Hi there! I am Shivangi",
   subTitle: emoji(
 "An Android Engineer skilled in Kotlin, Java, and Jetpack Compose. I build scalable, secure, and user-focused mobile apps using clean architecture and modern Android practices."
 ),
@@ -127,22 +127,30 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Madan Mohan Malaviya University of Technology",
+      subHeader: "B.Tech in Electronics & Communication Engineering",
+      duration: "2016 – 2020 | 82.2%",
+      desc: "Active in IEEE, Robotics Club, and led multiple tech committees.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Maharshi Patanjali Vidya Mandir (C.B.S.E.)",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      subHeader: "Intermediate",
+      duration: "2015",
+      desc: "90%",
+      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    }
+    ,
+    {
+      schoolName: "Maharshi Patanjali Vidya Mandir (C.B.S.E.)",
+      logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "High School",
+      duration: "2013",
+      desc: "10 C.G.P.A.",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
