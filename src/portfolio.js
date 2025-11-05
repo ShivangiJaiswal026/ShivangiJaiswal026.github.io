@@ -20,11 +20,11 @@ const illustration = {
 };
 
 const greeting = {
-  username: "PRANIT Ji",
-  title: "PRANIT Ji you are so handsome",
+  username: "Shivangi Jaiswal",
+  title: "Hi there I am Shivangi",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+"An Android Engineer skilled in Kotlin, Java, and Jetpack Compose. I build scalable, secure, and user-focused mobile apps using clean architecture and modern Android practices."
+),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -33,9 +33,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/SHIVANGIpasta",
-  linkedin: "https://www.linkedin.com/in/SHIVANGIpasta/",
-  gmail: "SHIVANGIpasta70@gmail.com",
+  github: "https://github.com/ShivangiJaiswal026",
+  linkedin: "https://www.linkedin.com/in/shivangicodes/",
+  gmail: "shivangijaiswal26@gmail.com",
   gitlab: "https://gitlab.com/SHIVANGIpasta",
   facebook: "https://www.facebook.com/SHIVANGI.pasta7",
   medium: "https://medium.com/@SHIVANGIpasta",
@@ -49,15 +49,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Android Developer focused on performance, design, and scalable architecture",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡Develop modern Android apps using Kotlin, Jetpack Compose & MVVM"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Integrate REST, GraphQL & gRPC APIs with secure authentication"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Optimize app performance, caching, and CI/CD pipelines"
+    ),
+    emoji("⚡ Mentor juniors and advocate modern Android practices")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
