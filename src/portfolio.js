@@ -296,6 +296,50 @@ const bigProjects = {
           url: "https://play.google.com/store/apps/details?id=com.yamaha_merchant.genblu"
         }
       ]
+    },
+    {
+      image: require("./assets/images/quambio.webp"),
+      projectName: "Quambio",
+      projectDesc: "Gamified sustainability app that tracks CO₂ reduction through user activities using Strava API integration",
+      footerLink: [
+        {
+          name: "Play Store Link",
+          url: "https://play.google.com/store/apps/details?id=ch.quambio.co2"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/genbluCustomer.webp"),
+      projectName: "Yamaha LMS — Genblu Customer App",
+      projectDesc: "Loyalty app for Yamaha customers to earn and redeem event points",
+      footerLink: [
+        {
+          name: "Play Store Link",
+          url: "https://play.google.com/store/apps/details?id=com.yamahamotors.genblu"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/edmi.webp"),
+      projectName: "EDMI Electric Meter Reading App",
+      projectDesc: "Handheld app for RF-based electric meter readings. Tech: Java, Firebase, RF Communication, IEEE 754, Android SDK",
+      footerLink: [
+        {
+          name: "Play Store Link",
+          url: "https://play.google.com/store/apps/details?id=nz.co.edmi.storm.mobile.droid&hl=en_IN"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/quambio.webp"),
+      projectName: "Global University Systems Applications",
+      projectDesc: "Multi-university applications (BSBI, Pearl Academy, UPES, MUA) for announcements, events, and webinars.",
+      footerLink: [
+        {
+          name: "BSBI - Play Store Link",
+          url: "https://play.google.com/store/apps/details?id=com.berlinsbi.app"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
