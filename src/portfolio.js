@@ -68,8 +68,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "xml",
+      fontAwesomeClassname: "fab fa-file-xml"
     },
     {
       skillName: "sass",
@@ -85,7 +85,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "github",
-      fontAwesomeClassname: "fab fa-square-github"
+      fontAwesomeClassname: "fab fa-github"
     },
     {
       skillName: "kotlin",
@@ -109,7 +109,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "ci/cd",
-      fontAwesomeClassname: "fab fa-infinity"
+      fontAwesomeClassname: "fa-solid fa-infinity"
     }
   ],
   display: true // Set false to hide this section, defaults to true
