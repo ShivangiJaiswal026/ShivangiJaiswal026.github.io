@@ -126,6 +126,22 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "intercom",
       fontAwesomeClassname: "fab fa-intercom"
+    },
+    {
+      skillName: "play console",
+      fontAwesomeClassname: "fab fa-google-play"
+    },
+    {
+      skillName: "atlassian",
+      fontAwesomeClassname: "fab fa-atlassian"
+    },
+    {
+      skillName: "strava",
+      fontAwesomeClassname: "fab fa-strava"
+    },
+    {
+      skillName: "buildkite",
+      fontAwesomeClassname: "far fa-map"
     }
   ],
   display: true // Set false to hide this section, defaults to true
