@@ -64,15 +64,15 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "java",
+      skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "xml",
+      skillName: "XML",
       fontAwesomeClassname: "fas fa-file"
     },
     {
-      skillName: "android",
+      skillName: "Android",
       fontAwesomeClassname: "fab fa-android"
     },
     {
@@ -80,68 +80,96 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "ReactJS",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "github",
+      skillName: "Github",
       fontAwesomeClassname: "fab fa-github"
     },
     {
-      skillName: "kotlin",
+      skillName: "Kotlin",
       fontAwesomeClassname: "fas fa-code"
     },
     {
-      skillName: "figma",
+      skillName: "Figma",
       fontAwesomeClassname: "fab fa-figma"
     },
     {
-      skillName: "sqllite-database",
+      skillName: "SQLite-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "bitbucket",
+      skillName: "Bitbucket",
       fontAwesomeClassname: "fab fa-bitbucket"
     },
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "ci/cd",
+      skillName: "CI/CD",
       fontAwesomeClassname: "fas fa-infinity"
     },
     {
-      skillName: "jetpack-compose",
-      fontAwesomeClassname: "fas fa-hexagon"
+      skillName: "Jetpack Compose",
+      fontAwesomeClassname: "far fa-hexagon"
     },
     {
-      skillName: "jira",
+      skillName: "JIRA",
       fontAwesomeClassname: "fab fa-jira"
     },
     {
-      skillName: "dropbox",
+      skillName: "Dropbox",
       fontAwesomeClassname: "fab fa-dropbox"
     },
     {
-      skillName: "intercom",
+      skillName: "Intercom",
       fontAwesomeClassname: "fab fa-intercom"
     },
     {
-      skillName: "play console",
+      skillName: "Play Console",
       fontAwesomeClassname: "fab fa-google-play"
     },
     {
-      skillName: "atlassian",
+      skillName: "Atlassian",
       fontAwesomeClassname: "fab fa-atlassian"
     },
     {
-      skillName: "strava",
+      skillName: "Strava",
       fontAwesomeClassname: "fab fa-strava"
     },
     {
       skillName: "buildkite",
       fontAwesomeClassname: "far fa-map"
+    },
+    {
+      skillName: "GraphQL",
+      fontAwesomeClassname: "fas fa-hexagon-nodes"
+    },
+    {
+      skillName: "Pendo",
+      fontAwesomeClassname: "fas fa-chart-line"
+    },
+    {
+      skillName: "gRPC",
+      fontAwesomeClassname: "fas fa-arrows-left-right"
+    },
+    {
+      skillName: "Umbraco CMS",
+      fontAwesomeClassname: "fab fa-umbraco"
+    },
+    {
+      skillName: "buildkite",
+      fontAwesomeClassname: "far fa-map"
+    },
+    {
+      skillName: "buildkite",
+      fontAwesomeClassname: "far fa-map"
+    },
+    {
+      skillName: "REST API",
+      fontAwesomeClassname: "fas fa-gear"
     }
   ],
   display: true // Set false to hide this section, defaults to true
