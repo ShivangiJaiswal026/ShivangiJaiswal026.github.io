@@ -36,10 +36,8 @@ const socialMediaLinks = {
   github: "https://github.com/ShivangiJaiswal026",
   linkedin: "https://www.linkedin.com/in/shivangicodes/",
   gmail: "shivangijaiswal26@gmail.com",
-  gitlab: "https://gitlab.com/SHIVANGIpasta",
-  facebook: "https://www.facebook.com/SHIVANGI.pasta7",
-  medium: "https://medium.com/@SHIVANGIpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/SHIVANGI-pasta",
+  medium: "https://medium.com/@shivangijaiswal_74663",
+  stackoverflow: "https://stackoverflow.com/users/19903565/shivangi-jaiswal",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -186,21 +184,21 @@ const workExperiences = {
     {
       role: "Software Development Engineer 3",
       company: "Suki AI",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/sukiLogo.webp"),
       date: "Sept 2022 – Present",
       desc: "Built AI-powered Android modules with Kotlin and Jetpack Compose, optimized gRPC audio streaming, improved security via Android Keystore, and automated CI/CD using Buildkite."
     },
     {
       role: "Software Development Engineer",
       company: "Hummingwave Technologies",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/hummingwaveLogo.png"),
       date: "Sept 2020 – Sept 2022",
       desc: "Developed 20+ Android apps across FinTech, EdTech, and Retail using MVVM, Room, and Retrofit; delivered scalable modular architectures and improved efficiency by 40%."
     },
     {
       role: "Operations Intern",
       company: "Delhi Metro Rail Corporation (DMRC)",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/dmrcLogo.png"),
       date: "May 2019 – July 2019"
     }
   ]
