@@ -69,7 +69,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "xml",
-      fontAwesomeClassname: "fas fa-file-xml"
+      fontAwesomeClassname: "fas fa-file-lines"
     },
     {
       skillName: "sass",
@@ -93,7 +93,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "figma",
-      fontAwesomeClassname: "fab figma"
+      fontAwesomeClassname: "fab fa-figma"
     },
     {
       skillName: "sqllite-database",
@@ -110,6 +110,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "ci/cd",
       fontAwesomeClassname: "fas fa-infinity"
+    },
+    {
+      skillName: "jetpack-compose",
+      fontAwesomeClassname: "fas fa-hexagon"
     }
   ],
   display: true // Set false to hide this section, defaults to true
