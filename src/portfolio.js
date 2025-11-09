@@ -128,6 +128,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Madan Mohan Malaviya University of Technology",
+      logo: require("./assets/images/mmmutLogo.png"),
       subHeader: "B.Tech in Electronics & Communication Engineering",
       duration: "2016 – 2020 | 82.2%",
       desc: "Active in IEEE, Robotics Club, and led multiple tech committees.",
@@ -137,21 +138,21 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Maharshi Patanjali Vidya Mandir (C.B.S.E.)",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Maharshi Patanjali Vidya Mandir",
+      logo: require("./assets/images/mpvmLogo.png"),
       subHeader: "Intermediate",
       duration: "2015",
       desc: "90%",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      descBullets: ["(C.B.S.E.)"]
     }
     ,
     {
       schoolName: "Maharshi Patanjali Vidya Mandir (C.B.S.E.)",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/mpvmLogo.png"),
       subHeader: "High School",
       duration: "2013",
       desc: "10 C.G.P.A.",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      descBullets: ["(C.B.S.E.)"]
     }
   ]
 };
@@ -383,7 +384,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
