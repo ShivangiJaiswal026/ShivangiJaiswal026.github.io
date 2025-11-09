@@ -288,7 +288,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/genbluMerchant.webp"),
-      projectName: "Yamaha LMS — Genblu Merchant App",
+      projectName: "Yamaha — Genblu Merchant App",
       projectDesc: "Reward system for Yamaha merchants to manage campaigns and points",
       footerLink: [
         {
@@ -310,7 +310,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/genbluCustomer.webp"),
-      projectName: "Yamaha LMS — Genblu Customer App",
+      projectName: "Yamaha — Genblu Customer App",
       projectDesc: "Loyalty app for Yamaha customers to earn and redeem event points",
       footerLink: [
         {
@@ -331,7 +331,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/quambio.webp"),
+      image: require("./assets/images/gusLogo.webp"),
       projectName: "Global University Systems Applications",
       projectDesc: "Multi-university applications (BSBI, Pearl Academy, UPES, MUA) for announcements, events, and webinars.",
       footerLink: [
