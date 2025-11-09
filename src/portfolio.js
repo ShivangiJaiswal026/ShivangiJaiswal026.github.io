@@ -69,11 +69,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "xml",
-      fontAwesomeClassname: "fas fa-file-lines"
+      fontAwesomeClassname: "fas fa-file"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "android",
+      fontAwesomeClassname: "fab fa-android"
     },
     {
       skillName: "JavaScript",
@@ -89,7 +89,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "kotlin",
-      fontAwesomeClassname: "fab fa-swift"
+      fontAwesomeClassname: "fas fa-code"
     },
     {
       skillName: "figma",
@@ -110,6 +110,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "ci/cd",
       fontAwesomeClassname: "fas fa-infinity"
+    },
+    {
+      skillName: "jetpack-compose",
+      fontAwesomeClassname: "fas fa-hexagon"
     },
     {
       skillName: "jetpack-compose",
