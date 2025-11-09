@@ -145,7 +145,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "GraphQL",
-      fontAwesomeClassname: "fas fa-hexagon-nodes"
+      fontAwesomeClassname: "fas fa-circle-nodes"
     },
     {
       skillName: "Pendo",
@@ -153,7 +153,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "gRPC",
-      fontAwesomeClassname: "fas fa-arrows-left-right"
+      fontAwesomeClassname: "fas fa-code-compare"
     },
     {
       skillName: "Umbraco CMS",
@@ -169,7 +169,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "REST API",
-      fontAwesomeClassname: "fas fa-gear"
+      fontAwesomeClassname: "fas fa-cloud-arrow-up"
     }
   ],
   display: true // Set false to hide this section, defaults to true
