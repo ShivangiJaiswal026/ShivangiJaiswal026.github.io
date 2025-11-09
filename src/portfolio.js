@@ -64,8 +64,8 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "css3",
@@ -84,19 +84,19 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-square-github"
     },
     {
-      skillName: "swift",
+      skillName: "kotlin",
       fontAwesomeClassname: "fab fa-swift"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "figma",
+      fontAwesomeClassname: "fab figma"
     },
     {
-      skillName: "sql-database",
+      skillName: "sqllite-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -108,12 +108,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "ci/cd",
+      fontAwesomeClassname: "fab fa-infinity"
     }
   ],
   display: true // Set false to hide this section, defaults to true
