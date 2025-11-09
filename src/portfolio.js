@@ -26,7 +26,7 @@ const greeting = {
 "An Android Engineer skilled in Kotlin, Java, and Jetpack Compose. I build scalable, secure, and user-focused mobile apps using clean architecture and modern Android practices."
 ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1y1dCB3hzuKByg8ETKbxClDNbS5I3VHnM/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -201,7 +201,7 @@ const educationInfo = {
     }
     ,
     {
-      schoolName: "Maharshi Patanjali Vidya Mandir (C.B.S.E.)",
+      schoolName: "Maharshi Patanjali Vidya Mandir",
       logo: require("./assets/images/mpvmLogo.png"),
       subHeader: "High School",
       duration: "2013",
@@ -271,29 +271,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/sukiApp.webp"),
+      projectName: "Suki",
+      projectDesc: "Voice-enabled AI assistant simplifying medical documentation with seamless EHR integration.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Play Store Link",
+          url: "https://play.google.com/store/apps/details?id=com.suki.suki&hl=en_IN"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/genbluMerchant.webp"),
+      projectName: "Yamaha LMS — Genblu Merchant App",
+      projectDesc: "Reward system for Yamaha merchants to manage campaigns and points",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Play Store Link",
+          url: "https://play.google.com/store/apps/details?id=com.yamaha_merchant.genblu"
         }
       ]
     }
