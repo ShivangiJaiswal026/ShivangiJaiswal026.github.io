@@ -100,8 +100,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "bitbucket",
+      fontAwesomeClassname: "fab fa-bitbucket"
     },
     {
       skillName: "firebase",
@@ -116,8 +116,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-hexagon"
     },
     {
-      skillName: "jetpack-compose",
-      fontAwesomeClassname: "fas fa-hexagon"
+      skillName: "jira",
+      fontAwesomeClassname: "fab fa-jira"
+    },
+    {
+      skillName: "dropbox",
+      fontAwesomeClassname: "fab fa-dropbox"
+    },
+    {
+      skillName: "intercom",
+      fontAwesomeClassname: "fab fa-intercom"
     }
   ],
   display: true // Set false to hide this section, defaults to true
