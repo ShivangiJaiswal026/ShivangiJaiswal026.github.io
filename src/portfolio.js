@@ -69,7 +69,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "xml",
-      fontAwesomeClassname: "fab fa-file-xml"
+      fontAwesomeClassname: "fas fa-file-xml"
     },
     {
       skillName: "sass",
@@ -109,7 +109,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "ci/cd",
-      fontAwesomeClassname: "fa-solid fa-infinity"
+      fontAwesomeClassname: "fas fa-infinity"
     }
   ],
   display: true // Set false to hide this section, defaults to true
