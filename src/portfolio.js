@@ -241,14 +241,14 @@ const workExperiences = {
       role: "Software Development Engineer 3",
       company: "Suki AI",
       companylogo: require("./assets/images/sukiLogo.webp"),
-      date: "Sept 2022 – Present",
+      date: "September 2022 – Present",
       desc: "Built AI-powered Android modules with Kotlin and Jetpack Compose, optimized gRPC audio streaming, improved security via Android Keystore, and automated CI/CD using Buildkite."
     },
     {
       role: "Software Development Engineer",
       company: "Hummingwave Technologies",
       companylogo: require("./assets/images/hummingwaveLogo.png"),
-      date: "Sept 2020 – Sept 2022",
+      date: "September 2020 – September 2022",
       desc: "Developed 20+ Android apps across FinTech, EdTech, and Retail using MVVM, Room, and Retrofit; delivered scalable modular architectures and improved efficiency by 40%."
     },
     {
@@ -264,10 +264,10 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
-
+ 
 // Some big projects you have worked on
 
 const bigProjects = {
@@ -288,7 +288,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/genbluMerchant.webp"),
-      projectName: "Yamaha — Genblu Merchant App",
+      projectName: "Yamaha Genblu Merchant App",
       projectDesc: "Reward system for Yamaha merchants to manage campaigns and points",
       footerLink: [
         {
@@ -310,7 +310,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/genbluCustomer.webp"),
-      projectName: "Yamaha — Genblu Customer App",
+      projectName: "Yamaha Genblu Customer App",
       projectDesc: "Loyalty app for Yamaha customers to earn and redeem event points",
       footerLink: [
         {
@@ -457,7 +457,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---SHIVANGI-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://anchor.fm/codevcast/embed/episodes/DevStory--from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
   display: false // Set false to hide this section, defaults to true
 };
