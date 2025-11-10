@@ -359,7 +359,6 @@ const achievementSection = {
         "Recipient for 4 consecutive years, supporting academic excellence in engineering studies.",
       image: require("./assets/images/aicte.png"),
       footerLink: [
-        
       ]
     },
     {
@@ -372,6 +371,22 @@ const achievementSection = {
           name: "Watch Video",
           url: "https://www.youtube.com/watch?v=iKTgKGeTRzg&t=1980s"
         }
+      ]
+    },
+    {
+      title: "Served as Technical Secretary (CSA), Joint Secretary (IEEE Student Branch), and Managerial Head (Robotics Club)",
+      subtitle:
+        "Led tech initiatives, organized events, and fostered innovation among students.",
+      image: require("./assets/images/ieee.png"),
+      footerLink: [
+      ]
+    },
+    {
+      title: "Project Lead (UPCST-Funded)",
+      subtitle:
+        "Directed a government-funded research project under the Council of Science and Technology, Uttar Pradesh",
+      image: require("./assets/images/upcst.png"),
+      footerLink: [
       ]
     }
   ],
