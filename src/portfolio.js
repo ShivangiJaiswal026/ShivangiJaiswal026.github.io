@@ -187,8 +187,7 @@ const educationInfo = {
       duration: "2016 – 2020 | 82.2%",
       desc: "Active in IEEE, Robotics Club, and led multiple tech committees.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Graduated with Distinction (Honors)"
       ]
     },
     {
@@ -376,29 +375,14 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Featured on #TheAndroidShow by Google for Gemini AI insights",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Shared perspectives on integrating Gemini AI into Android development and building intelligent, context-aware mobile experiences.",
+      image: require("./assets/images/tas.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Watch Video",
+          url: "https://www.youtube.com/watch?v=iKTgKGeTRzg&t=1980s"
         }
       ]
     }
