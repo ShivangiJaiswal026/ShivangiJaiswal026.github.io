@@ -360,7 +360,7 @@ const achievementSection = {
       image: require("./assets/images/aicte.png"),
       footerLink: [
         {
-          name: "Certification",
+          name: "",
           url: ""
         }
       ]
