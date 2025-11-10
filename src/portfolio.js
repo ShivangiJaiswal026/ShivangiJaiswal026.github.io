@@ -335,7 +335,7 @@ const bigProjects = {
       projectDesc: "Multi-university applications (BSBI, Pearl Academy, UPES, MUA) for announcements, events, and webinars.",
       footerLink: [
         {
-          name: "BSBI - Play Store Link",
+          name: "BSBI Play Store Link",
           url: "https://play.google.com/store/apps/details?id=com.berlinsbi.app"
         }
       ]
