@@ -356,13 +356,10 @@ const achievementSection = {
     {
       title: "AICTE Merit Scholarship",
       subtitle:
-        "First to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Recipient for 4 consecutive years, supporting academic excellence in engineering studies.",
       image: require("./assets/images/aicte.png"),
       footerLink: [
-        {
-          name: "",
-          url: ""
-        }
+        
       ]
     },
     {
