@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9c9afc7d.css",
-    "main.js": "/static/js/main.1953ce57.js",
+    "main.js": "/static/js/main.82246cba.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.8173dcda.chunk.js": "/static/js/64.8173dcda.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -10,6 +10,7 @@
     "static/media/tas.png": "/static/media/tas.d56640cae0c3a581d3c4.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/dmrcLogo.png": "/static/media/dmrcLogo.73c218dda4ae77b5df65.png",
+    "static/media/sukihack.png": "/static/media/sukihack.59b91fe491993865551a.png",
     "static/media/mmmutLogo.png": "/static/media/mmmutLogo.a71fc895e6a7d5630211.png",
     "static/media/hummingwaveLogo.png": "/static/media/hummingwaveLogo.dc83ba5530dbccbda078.png",
     "static/media/resume.pdf": "/static/media/resume.810f4cc2ddb1e486a2e4.pdf",
@@ -30,7 +31,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.9c9afc7d.css.map": "/static/css/main.9c9afc7d.css.map",
-    "main.1953ce57.js.map": "/static/js/main.1953ce57.js.map",
+    "main.82246cba.js.map": "/static/js/main.82246cba.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.8173dcda.chunk.js.map": "/static/js/64.8173dcda.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -38,6 +39,6 @@
   },
   "entrypoints": [
     "static/css/main.9c9afc7d.css",
-    "static/js/main.1953ce57.js"
+    "static/js/main.82246cba.js"
   ]
 }
