@@ -350,7 +350,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "",
 
   achievementsCards: [
     {
@@ -386,6 +386,14 @@ const achievementSection = {
       subtitle:
         "Directed a government-funded research project under the Council of Science and Technology, Uttar Pradesh",
       image: require("./assets/images/upcst.png"),
+      footerLink: [
+      ]
+    },
+    {
+      title: "Suki Internal Hackathon Winner",
+      subtitle:
+        "Winner of the People's Choice Award for an innovative Android solution enhancing user experience",
+      image: require("./assets/images/sukihack.png"),
       footerLink: [
       ]
     }
