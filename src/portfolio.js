@@ -113,7 +113,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Jetpack Compose",
-      fontAwesomeClassname: "far fa-hexagon"
+      fontAwesomeClassname: "far fa-laptop-code"
     },
     {
       skillName: "JIRA",
@@ -145,7 +145,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "GraphQL",
-      fontAwesomeClassname: "fas fa-circle-nodes"
+      fontAwesomeClassname: "fas fa-sitemap"
     },
     {
       skillName: "Pendo",
@@ -153,23 +153,15 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "gRPC",
-      fontAwesomeClassname: "fas fa-code-compare"
+      fontAwesomeClassname: "fas fa-right-left"
     },
     {
       skillName: "Umbraco CMS",
       fontAwesomeClassname: "fab fa-umbraco"
     },
     {
-      skillName: "buildkite",
-      fontAwesomeClassname: "far fa-map"
-    },
-    {
-      skillName: "buildkite",
-      fontAwesomeClassname: "far fa-map"
-    },
-    {
       skillName: "REST API",
-      fontAwesomeClassname: "fas fa-cloud-arrow-up"
+      fontAwesomeClassname: "fas fa-server"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -271,7 +263,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "",
   projects: [
     {
       image: require("./assets/images/sukiApp.webp"),
@@ -348,7 +340,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements And Recognitions 🏆 "),
   subtitle:
     "",
 
@@ -390,7 +382,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Suki Internal Hackathon Winner",
+      title: "Suki Hackathon Winner",
       subtitle:
         "Winner of the People's Choice Award for an innovative Android solution enhancing user experience",
       image: require("./assets/images/sukihack.png"),
