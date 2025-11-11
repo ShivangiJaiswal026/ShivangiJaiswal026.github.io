@@ -76,14 +76,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-android"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "ReactJS",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
       skillName: "Github",
       fontAwesomeClassname: "fab fa-github"
     },
@@ -113,7 +105,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Jetpack Compose",
-      fontAwesomeClassname: "far fa-laptop-code"
+      fontAwesomeClassname: "far fa-arrows-spin"
     },
     {
       skillName: "JIRA",
@@ -145,7 +137,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "GraphQL",
-      fontAwesomeClassname: "fas fa-sitemap"
+      fontAwesomeClassname: "fas fa-server"
     },
     {
       skillName: "Pendo",
@@ -153,7 +145,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "gRPC",
-      fontAwesomeClassname: "fas fa-right-left"
+      fontAwesomeClassname: "fas fa-sitemap"
     },
     {
       skillName: "Umbraco CMS",
@@ -161,7 +153,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "REST API",
-      fontAwesomeClassname: "fas fa-server"
+      fontAwesomeClassname: "fas fa-sun"
     }
   ],
   display: true // Set false to hide this section, defaults to true
