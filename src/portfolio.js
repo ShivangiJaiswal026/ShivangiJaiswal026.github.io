@@ -105,7 +105,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Jetpack Compose",
-      fontAwesomeClassname: "far fa-arrows-spin"
+      fontAwesomeClassname: "far fa-copyright"
     },
     {
       skillName: "JIRA",
