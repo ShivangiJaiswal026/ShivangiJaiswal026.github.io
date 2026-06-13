@@ -23,8 +23,8 @@ const greeting = {
   username: "Shivangi Jaiswal",
   title: "Hi there! I am Shivangi",
   subTitle: emoji(
-"An Android Engineer skilled in Kotlin, Java, and Jetpack Compose. I build scalable, secure, and user-focused mobile apps using clean architecture and modern Android practices."
-),
+    "An Android Engineer skilled in Kotlin, Java, and Jetpack Compose. I build scalable, secure, and user-focused mobile apps using clean architecture and modern Android practices."
+  ),
   resumeLink:
     "https://drive.google.com/file/d/1y1dCB3hzuKByg8ETKbxClDNbS5I3VHnM/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -47,15 +47,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Android Developer focused on performance, design, and scalable architecture",
+  subTitle:
+    "Android Developer focused on performance, design, and scalable architecture",
   skills: [
-    emoji(
-      "⚡Develop modern Android apps using Kotlin, Jetpack Compose & MVVM"
-    ),
+    emoji("⚡Develop modern Android apps using Kotlin, Jetpack Compose & MVVM"),
     emoji("⚡ Integrate REST, GraphQL & gRPC APIs with secure authentication"),
-    emoji(
-      "⚡ Optimize app performance, caching, and CI/CD pipelines"
-    ),
+    emoji("⚡ Optimize app performance, caching, and CI/CD pipelines"),
     emoji("⚡ Mentor juniors and advocate modern Android practices")
   ],
 
@@ -170,9 +167,7 @@ const educationInfo = {
       subHeader: "B.Tech in Electronics & Communication Engineering",
       duration: "2016 – 2020 | 82.2%",
       desc: "Active in IEEE, Robotics Club, and led multiple tech committees.",
-      descBullets: [
-        "Graduated with Distinction (Honors)"
-      ]
+      descBullets: ["Graduated with Distinction (Honors)"]
     },
     {
       schoolName: "Maharshi Patanjali Vidya Mandir",
@@ -181,8 +176,7 @@ const educationInfo = {
       duration: "2015",
       desc: "90%",
       descBullets: ["(C.B.S.E.)"]
-    }
-    ,
+    },
     {
       schoolName: "Maharshi Patanjali Vidya Mandir",
       logo: require("./assets/images/mpvmLogo.png"),
@@ -220,7 +214,7 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-        {
+    {
       role: "Senior Android Engineer",
       company: "Verifone",
       companylogo: require("./assets/images/verifone.webp"),
@@ -257,7 +251,7 @@ const openSource = {
   showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
- 
+
 // Some big projects you have worked on
 
 const bigProjects = {
@@ -267,7 +261,8 @@ const bigProjects = {
     {
       image: require("./assets/images/sukiApp.webp"),
       projectName: "Suki",
-      projectDesc: "Voice-enabled AI assistant simplifying medical documentation with seamless EHR integration.",
+      projectDesc:
+        "Voice-enabled AI assistant simplifying medical documentation with seamless EHR integration.",
       footerLink: [
         {
           name: "Play Store Link",
@@ -279,7 +274,8 @@ const bigProjects = {
     {
       image: require("./assets/images/genbluMerchant.webp"),
       projectName: "Yamaha Genblu Merchant App",
-      projectDesc: "Reward system for Yamaha merchants to manage campaigns and points",
+      projectDesc:
+        "Reward system for Yamaha merchants to manage campaigns and points",
       footerLink: [
         {
           name: "Play Store Link",
@@ -290,7 +286,8 @@ const bigProjects = {
     {
       image: require("./assets/images/quambio.webp"),
       projectName: "Quambio",
-      projectDesc: "Gamified sustainability app that tracks CO₂ reduction through user activities using Strava API integration",
+      projectDesc:
+        "Gamified sustainability app that tracks CO₂ reduction through user activities using Strava API integration",
       footerLink: [
         {
           name: "Play Store Link",
@@ -301,7 +298,8 @@ const bigProjects = {
     {
       image: require("./assets/images/genbluCustomer.webp"),
       projectName: "Yamaha Genblu Customer App",
-      projectDesc: "Loyalty app for Yamaha customers to earn and redeem event points",
+      projectDesc:
+        "Loyalty app for Yamaha customers to earn and redeem event points",
       footerLink: [
         {
           name: "Play Store Link",
@@ -312,7 +310,8 @@ const bigProjects = {
     {
       image: require("./assets/images/edmi.webp"),
       projectName: "EDMI Electric Meter Reading App",
-      projectDesc: "Handheld app for RF-based electric meter readings. Tech: Java, Firebase, RF Communication, IEEE 754, Android SDK",
+      projectDesc:
+        "Handheld app for RF-based electric meter readings. Tech: Java, Firebase, RF Communication, IEEE 754, Android SDK",
       footerLink: [
         {
           name: "Play Store Link",
@@ -323,7 +322,8 @@ const bigProjects = {
     {
       image: require("./assets/images/gusLogo.webp"),
       projectName: "Global University Systems Applications",
-      projectDesc: "Multi-university applications (BSBI, Pearl Academy, UPES, MUA) for announcements, events, and webinars.",
+      projectDesc:
+        "Multi-university applications (BSBI, Pearl Academy, UPES, MUA) for announcements, events, and webinars.",
       footerLink: [
         {
           name: "BSBI Play Store Link",
@@ -340,8 +340,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Recognitions 🏆 "),
-  subtitle:
-    "",
+  subtitle: "",
 
   achievementsCards: [
     {
@@ -349,8 +348,7 @@ const achievementSection = {
       subtitle:
         "Recipient for 4 consecutive years, supporting academic excellence in engineering studies.",
       image: require("./assets/images/aicte.png"),
-      footerLink: [
-      ]
+      footerLink: []
     },
     {
       title: "Featured on #TheAndroidShow by Google for Gemini AI insights",
@@ -365,28 +363,26 @@ const achievementSection = {
       ]
     },
     {
-      title: "Served as Technical Secretary (CSA), Joint Secretary (IEEE Student Branch), and Managerial Head (Robotics Club)",
+      title:
+        "Served as Technical Secretary (CSA), Joint Secretary (IEEE Student Branch), and Managerial Head (Robotics Club)",
       subtitle:
         "Led tech initiatives, organized events, and fostered innovation among students.",
       image: require("./assets/images/ieee.png"),
-      footerLink: [
-      ]
+      footerLink: []
     },
     {
       title: "Project Lead (UPCST-Funded)",
       subtitle:
         "Directed a government-funded research project under the Council of Science and Technology, Uttar Pradesh",
       image: require("./assets/images/upcst.png"),
-      footerLink: [
-      ]
+      footerLink: []
     },
     {
       title: "Suki Hackathon Winner",
       subtitle:
         "Winner of the People's Choice Award for an innovative Android solution enhancing user experience",
       image: require("./assets/images/sukihack.png"),
-      footerLink: [
-      ]
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
