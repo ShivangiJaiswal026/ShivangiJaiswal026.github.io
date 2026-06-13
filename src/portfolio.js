@@ -220,11 +220,18 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+        {
+      role: "Senior Android Engineer",
+      company: "Verifone",
+      companylogo: require("./assets/images/verifone.webp"),
+      date: "December 2025 – Present",
+      desc: "Engineering Android payment apps and agentic AI solutions that accelerate software delivery and developer productivity"
+    },
     {
       role: "Software Development Engineer 3",
       company: "Suki AI",
       companylogo: require("./assets/images/sukiLogo.webp"),
-      date: "September 2022 – Present",
+      date: "September 2022 – December 2025",
       desc: "Built AI-powered Android modules with Kotlin and Jetpack Compose, optimized gRPC audio streaming, improved security via Android Keystore, and automated CI/CD using Buildkite."
     },
     {
