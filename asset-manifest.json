@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9c9afc7d.css",
-    "main.js": "/static/js/main.dcdd0e3d.js",
+    "main.js": "/static/js/main.a30855ff.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.8173dcda.chunk.js": "/static/js/64.8173dcda.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -13,15 +13,15 @@
     "static/media/sukihack.png": "/static/media/sukihack.59b91fe491993865551a.png",
     "static/media/mmmutLogo.png": "/static/media/mmmutLogo.a71fc895e6a7d5630211.png",
     "static/media/hummingwaveLogo.png": "/static/media/hummingwaveLogo.dc83ba5530dbccbda078.png",
-    "static/media/resume.pdf": "/static/media/resume.e16861de7c2417a9673e.pdf",
+    "static/media/resume.pdf": "/static/media/resume.fb5ae9c12653468fde55.pdf",
     "static/media/upcst.png": "/static/media/upcst.3b231a07696e0cdd870b.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/verifone.webp": "/static/media/verifone.ac609f5b1303a44b6aad.webp",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/aicte.png": "/static/media/aicte.db9574438f7b3dd4f38f.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/genbluMerchant.webp": "/static/media/genbluMerchant.141e7a8cde9753ac54fe.webp",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
-    "static/media/verifone.webp": "/static/media/verifone.40cda1d7f3d26fd15105.webp",
     "static/media/genbluCustomer.webp": "/static/media/genbluCustomer.ab2a0129196b8bd0515f.webp",
     "static/media/gusLogo.webp": "/static/media/gusLogo.12c38ad0c098c7727ee1.webp",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
@@ -32,7 +32,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.9c9afc7d.css.map": "/static/css/main.9c9afc7d.css.map",
-    "main.dcdd0e3d.js.map": "/static/js/main.dcdd0e3d.js.map",
+    "main.a30855ff.js.map": "/static/js/main.a30855ff.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.8173dcda.chunk.js.map": "/static/js/64.8173dcda.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -40,6 +40,6 @@
   },
   "entrypoints": [
     "static/css/main.9c9afc7d.css",
-    "static/js/main.dcdd0e3d.js"
+    "static/js/main.a30855ff.js"
   ]
 }
